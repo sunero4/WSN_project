@@ -92,6 +92,7 @@ extern bool tsch_cs_process(void);
 #define TSCH_CONF_EB_PERIOD (4 * CLOCK_SECOND)
 #define TSCH_CONF_MAX_EB_PERIOD (4 * CLOCK_SECOND)
 
+#define TSCH_CONF_AUTOSTART 0
 /*******************************************************/
 /************* Other system configuration **************/
 /*******************************************************/

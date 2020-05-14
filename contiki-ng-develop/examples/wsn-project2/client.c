@@ -86,6 +86,8 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
 
 #if MAC_CONF_WITH_TSCH
   tsch_set_coordinator(linkaddr_cmp(&coordinator_addr, &linkaddr_node_addr));
+
+  NETSTACK_MAC.on();
 #endif /* MAC_CONF_WITH_TSCH */
 
   /* Initialize NullNet */

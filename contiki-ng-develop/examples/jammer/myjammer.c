@@ -157,9 +157,9 @@ static void carrier_OnOff(struct rtimer *timer, void *ptr)
         leds_off(LEDS_RED);
     }
     // Calculate the time of the next period ( time_next_period = R*Q(x)*CONSTANT_MICROS )
-    R = 1 + abs(random_number(100));                       // Generate random numbers between [1,100]
-    Qx = 1 + abs(random_number(50));                       // Generate random numbers between [1,50]
-	time_next_period = R*Qx;
+    R = 1 + abs(random_number(100)); // Generate random numbers between [1,100]
+    Qx = 1 + abs(random_number(50)); // Generate random numbers between [1,50]
+    time_next_period = R * Qx;
     time_next_period = 10;                                 //R * Qx;                             // Compute the next time period according to the paper [1]
     time_next_period = time_next_period * CONSTANT_MICROS; // Compute the next time period according to the paper [1]
 

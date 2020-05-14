@@ -146,9 +146,6 @@ tsch_cs_select_replacement(uint8_t old_channel, tsch_stat_t old_ewma,
 
   /* Don't want to replace a channel if the improvement is miniscule (< 10%) */
   old_ewma += TSCH_CS_HYSTERESIS;
-
-  LOG_DBG("XXX CHANNEL 20: %d \n", qualities[20].metric);
-  LOG_DBG("XXX CHANNEL 10: %d \n", qualities[10].metric);
   /* iterate up to -1 because we know that at least one of the channels is bad */
   for (i = 0; i < TSCH_STATS_NUM_CHANNELS - 1; ++i)
   {
@@ -213,14 +210,11 @@ bool tsch_cs_process(void)
   uint8_t is_in_sequence[TSCH_STATS_NUM_CHANNELS];
   static uint32_t last_time_changed;
 
-  printf("HEJ ANDERS 1 \n");
-
   if (!recaculation_requested)
   {
     /* nothing to do */
     return false;
   }
-  printf("HEJ ANDERS 2 \n");
 
   if (last_time_changed != 0 && last_time_changed + TSCH_CS_MIN_UPDATE_INTERVAL_SEC > clock_seconds())
   {
@@ -228,7 +222,6 @@ bool tsch_cs_process(void)
     return false;
   }
 
-  printf("HEJ ANDERS 3 \n");
   /* reset the flag */
   recaculation_requested = false;
 
@@ -285,16 +278,11 @@ bool tsch_cs_process(void)
     return false;
   }
 
-  printf("HEJ ANDERS 4 \n");
-
   has_replaced = false;
   for (i = TSCH_STATS_NUM_CHANNELS - 1; i >= tsch_hopping_sequence_length.val; --i)
   {
-    printf("HEJ MADS 1 \n");
     if (is_in_sequence[qualities[i].channel - TSCH_STATS_FIRST_CHANNEL] != 0xff)
     {
-
-      printf("HEJ THOMAS 1 \n");
       /* found the worst channel; it must be busy */
       uint8_t channel = qualities[i].channel;
       tsch_stat_t ewma_metric = qualities[i].metric;
@@ -334,15 +322,11 @@ void tsch_cs_channel_stats_updated(uint8_t updated_channel, uint16_t old_busynes
   bool old_is_busy;
   bool new_is_busy;
 
-  printf("HEJ MORUP 1 \n");
-
   /* Enable this only on the coordinator node */
   if (!tsch_is_coordinator)
   {
     return;
   }
-
-  printf("HEJ MORUP 2 \n");
 
   /* Do not try to adapt before enough information has been learned */
   if (clock_seconds() < TSCH_CS_LEARNING_PERIOD_SEC)
@@ -350,34 +334,23 @@ void tsch_cs_channel_stats_updated(uint8_t updated_channel, uint16_t old_busynes
     return;
   }
 
-  printf("HEJ MORUP 3 \n");
-
   index = tsch_stats_channel_to_index(updated_channel);
 
   old_is_busy = (old_busyness_metric < TSCH_CS_FREE_THRESHOLD);
   new_is_busy = (tsch_stats.channel_free_ewma[index] < TSCH_CS_FREE_THRESHOLD);
 
-  printf("HEJ OLDBUSY %d", old_is_busy);
-
-  printf("HEJ NEWBUSY %d", new_is_busy);
-
   if (old_is_busy != new_is_busy)
   {
     /* the status of the channel has changed*/
     recaculation_requested = true;
-
-    printf("HEJ MORUP 4 \n");
   }
   else if (new_is_busy)
   {
-    printf("HEJ MORUP 5 \n");
     /* run the reselection algorithm iff the channel is both (1) bad and (2) in use */
     if (tsch_cs_bitmap_contains(tsch_cs_current_bitmap, updated_channel))
     {
       /* the channel is in use and is busy */
       recaculation_requested = true;
-
-      printf("HEJ MORUP 6 \n");
     }
   }
 }
