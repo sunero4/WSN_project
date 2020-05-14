@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "cc2420_const.h": "c",
+        "spi-legacy.h": "c"
+    }
+}
