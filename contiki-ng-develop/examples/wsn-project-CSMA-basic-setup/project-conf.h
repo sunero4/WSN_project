@@ -49,6 +49,9 @@
 #define SICSLOWPAN_CONF_FRAG 0
 #define UIP_CONF_BUFFER_SIZE 160
 
+/* ENABLE ENERGEST */
+#define ENERGEST_CONF_ON 1
+
 /*******************************************************/
 /******************* Configure TSCH ********************/
 /*******************************************************/

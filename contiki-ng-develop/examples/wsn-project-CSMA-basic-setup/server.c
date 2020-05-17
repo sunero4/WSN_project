@@ -44,6 +44,7 @@
 #include <string.h>
 #include "sys/clock.h" /* For printing time */
 #include <stdio.h> /* For printf() */
+#include "sys/energest.h"
 
 /* Log configuration */
 #include "sys/log.h"
@@ -60,6 +61,12 @@
 static linkaddr_t coordinator_addr = {{0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};
 #endif /* MAC_CONF_WITH_TSCH */
 
+static unsigned long
+to_seconds(uint64_t time)
+{
+  return (unsigned long)(time / ENERGEST_SECOND);
+}
+
 /*---------------------------------------------------------------------------*/
 PROCESS(nullnet_example_process, "NullNet broadcast example");
 AUTOSTART_PROCESSES(&nullnet_example_process);
@@ -73,7 +80,7 @@ void input_callback(const void *data, uint16_t len,
     unsigned count;
     memcpy(&count, data, sizeof(count));
     unsigned long time = clock_time();
-    LOG_INFO("xxx: Timestamp: %d, Received %u from  \n", time, count);
+    LOG_INFO("xxx: Timestamp: %d, Received %u from  \n", (int)time, count);
     LOG_INFO_LLADDR(src);
     LOG_INFO_("\n");
   }
@@ -101,6 +108,22 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
     etimer_reset(&periodic_timer);
+
+    /* Update all energest times. */
+    energest_flush();
+
+    printf("\nEnergest:\n");
+    printf("xxx: CPU          %4lus LPM      %4lus DEEP LPM %4lus  Total time %lus\n",
+           to_seconds(energest_type_time(ENERGEST_TYPE_CPU)),
+           to_seconds(energest_type_time(ENERGEST_TYPE_LPM)),
+           to_seconds(energest_type_time(ENERGEST_TYPE_DEEP_LPM)),
+           to_seconds(ENERGEST_GET_TOTAL_TIME()));
+    printf(" Radio LISTEN %4lus TRANSMIT %4lus OFF      %4lus\n",
+           to_seconds(energest_type_time(ENERGEST_TYPE_LISTEN)),
+           to_seconds(energest_type_time(ENERGEST_TYPE_TRANSMIT)),
+           to_seconds(ENERGEST_GET_TOTAL_TIME()
+                      - energest_type_time(ENERGEST_TYPE_TRANSMIT)
+                      - energest_type_time(ENERGEST_TYPE_LISTEN)));
   }
 
   PROCESS_END();
