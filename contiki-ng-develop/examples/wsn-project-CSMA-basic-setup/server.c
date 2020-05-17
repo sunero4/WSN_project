@@ -124,6 +124,8 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
            to_seconds(ENERGEST_GET_TOTAL_TIME()
                       - energest_type_time(ENERGEST_TYPE_TRANSMIT)
                       - energest_type_time(ENERGEST_TYPE_LISTEN)));
+
+    printf("BASIC %4lus \n", to_seconds(ENERGEST_GET_TOTAL_TIME()));
   }
 
   PROCESS_END();

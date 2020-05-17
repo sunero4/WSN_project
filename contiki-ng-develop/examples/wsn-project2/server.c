@@ -42,6 +42,7 @@
 #include "net/netstack.h"
 #include "net/nullnet/nullnet.h"
 #include <string.h>
+#include "sys/clock.h" /* For printing time */
 #include "sys/energest.h"
 #include <stdio.h> /* For printf() */
 
@@ -60,6 +61,11 @@
 static linkaddr_t coordinator_addr = {{0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};
 #endif /* MAC_CONF_WITH_TSCH */
 
+static unsigned long
+to_seconds(uint64_t time)
+{
+  return (unsigned long)(time / ENERGEST_SECOND);
+}
 /*---------------------------------------------------------------------------*/
 PROCESS(nullnet_example_process, "NullNet broadcast example");
 AUTOSTART_PROCESSES(&nullnet_example_process);
@@ -78,17 +84,11 @@ void input_callback(const void *data, uint16_t len,
   }
 }
 
-static unsigned long
-to_seconds(uint64_t time)
-{
-  return (unsigned long)(time / ENERGEST_SECOND);
-}
-
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(nullnet_example_process, ev, data)
 {
   static struct etimer periodic_timer;
-  static unsigned count = 0;
+  static unsigned count = 0;  
 
   PROCESS_BEGIN();
 
@@ -103,16 +103,38 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
   nullnet_buf = (uint8_t *)&count;
   nullnet_len = sizeof(count);
   nullnet_set_input_callback(input_callback);
+  int wake_time = 0;
+  int sleep_time = 0;
+  int start_time = (int)RTIMER_NOW();
+  int tempTime = 0; 
+  int tempTime2 = 0;
+  int x = 1;
+  int y = 1;
+
+
 
   etimer_set(&periodic_timer, SEND_INTERVAL);
   while (1)
   {
-    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
-
-    etimer_reset(&periodic_timer);
-    
+    x += y;
+    printf("x here %d \n", x);
     /* Update all energest times. */
     energest_flush();
+    printf("Elapsed time %d \n", (((int)RTIMER_NOW()-start_time)/1000000));    
+    printf("Elapsed 2 %d \n", (int)RTIMER_NOW()/1000000);
+    printf("Elapsed 3 %d \n", start_time/1000000);
+    tempTime = (int)(RTIMER_NOW()-start_time)/1000000;
+    printf("Elapsed 4 %d \n", tempTime);
+    printf("Elapsed 5 %d \n", tempTime2);
+    tempTime2 += (int)(RTIMER_NOW()-start_time)/1000000-tempTime+1;
+    printf("Elapsed 6 %d \n", tempTime2);
+    wake_time = wake_time + (int)(RTIMER_NOW()-start_time)/1000000;
+    printf("Go to sleep \n");
+    PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
+    printf("TOTAL %4lus \n", to_seconds(ENERGEST_GET_TOTAL_TIME()));
+    sleep_time = sleep_time + (int)(RTIMER_NOW()-start_time)/1000000;
+    printf("Wake up \n"); 
+    etimer_reset(&periodic_timer);
 
     printf("\nEnergest:\n");
     printf(" CPU          %4lus LPM      %4lus DEEP LPM %4lus  Total time %lus\n",
@@ -126,6 +148,8 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
            to_seconds(ENERGEST_GET_TOTAL_TIME()
                       - energest_type_time(ENERGEST_TYPE_TRANSMIT)
                       - energest_type_time(ENERGEST_TYPE_LISTEN)));
+    printf("Test2 %4lus \n", to_seconds(ENERGEST_GET_TOTAL_TIME()));
+    printf("Waketime: %d, sleeptime: %d, total time: %d \n", wake_time, sleep_time, to_seconds(ENERGEST_GET_TOTAL_TIME()) );
   }
 
   PROCESS_END();
