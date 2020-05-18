@@ -65,24 +65,28 @@ PROCESS_THREAD(node_process, ev, data)
   is_coordinator = (node_id == 1);
 #endif
 
-  if(is_coordinator) {
+  if (is_coordinator)
+  {
     NETSTACK_ROUTING.root_start();
-  }  
+  }
   NETSTACK_MAC.on();
+
+  tsch_cs_adaptations_init();
 
 #if WITH_PERIODIC_ROUTES_PRINT
   {
     static struct etimer et;
     /* Print out routing tables every minute */
     etimer_set(&et, CLOCK_SECOND * 60);
-    while(1) {
-      /* Used for non-regression testing */
-      #if (UIP_MAX_ROUTES != 0)
-        PRINTF("Routing entries: %u\n", uip_ds6_route_num_routes());
-      #endif
-      #if (UIP_SR_LINK_NUM != 0)
-        PRINTF("Routing links: %u\n", uip_sr_num_nodes());
-      #endif
+    while (1)
+    {
+/* Used for non-regression testing */
+#if (UIP_MAX_ROUTES != 0)
+      PRINTF("Routing entries: %u\n", uip_ds6_route_num_routes());
+#endif
+#if (UIP_SR_LINK_NUM != 0)
+      PRINTF("Routing links: %u\n", uip_sr_num_nodes());
+#endif
       PROCESS_YIELD_UNTIL(etimer_expired(&et));
       etimer_reset(&et);
     }

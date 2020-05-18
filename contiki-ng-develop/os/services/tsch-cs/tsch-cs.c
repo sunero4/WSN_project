@@ -92,7 +92,6 @@ tsch_cs_bitmap_contains(tsch_cs_bitmap_t bitmap, uint8_t channel)
 static inline tsch_cs_bitmap_t
 tsch_cs_bitmap_set(tsch_cs_bitmap_t bitmap, uint8_t channel)
 {
-  printf("HEJ CHANNEL: %u \n", channel);
   return (1 << (channel - TSCH_STATS_FIRST_CHANNEL)) | bitmap;
 }
 /*---------------------------------------------------------------------------*/
@@ -249,6 +248,7 @@ bool tsch_cs_process(void)
   /* mark the first N channels as "good" - there is nothing better to select */
   for (i = 0; i < tsch_hopping_sequence_length.val; ++i)
   {
+    printf("\ncs test: Sets channel %u to good\n", qualities[i].channel);
     is_channel_busy[qualities[i].channel - TSCH_STATS_FIRST_CHANNEL] = 0;
   }
 
@@ -256,33 +256,39 @@ bool tsch_cs_process(void)
   {
     uint8_t ci = qualities[i].channel - TSCH_STATS_FIRST_CHANNEL;
     (void)ci;
-    LOG_DBG("ch %u q %u busy %u in seq %u\n",
-            qualities[i].channel,
-            qualities[i].metric,
-            is_channel_busy[ci],
-            is_in_sequence[ci] == 0xff ? 0 : 1);
+    printf("ch %u q %u busy %u in seq %u\n",
+           qualities[i].channel,
+           qualities[i].metric,
+           is_channel_busy[ci],
+           is_in_sequence[ci] == 0xff ? 0 : 1);
   }
 
   try_replace = false;
   for (i = 0; i < tsch_hopping_sequence_length.val; ++i)
   {
     uint8_t channel = tsch_hopping_sequence[i];
+    printf("\ncs test: checking channel: %u | Is busy : %u \n", channel, is_channel_busy[channel - TSCH_STATS_FIRST_CHANNEL]);
     if (is_channel_busy[channel - TSCH_STATS_FIRST_CHANNEL])
     {
+      printf("\ncs test: channel %u is busy \n", channel);
       try_replace = true;
     }
   }
   if (!try_replace)
   {
-    LOG_DBG("cs: not replacing\n");
+    printf("cs: not replacing\n");
     return false;
   }
 
   has_replaced = false;
+
+  printf("\ncs: number of channels: %u | tsch hopping sequence length: %u \n", TSCH_STATS_NUM_CHANNELS, tsch_hopping_sequence_length.val);
   for (i = TSCH_STATS_NUM_CHANNELS - 1; i >= tsch_hopping_sequence_length.val; --i)
   {
+
     if (is_in_sequence[qualities[i].channel - TSCH_STATS_FIRST_CHANNEL] != 0xff)
     {
+      printf("\ncs: channel %u is not in sequence \n", qualities[i].channel);
       /* found the worst channel; it must be busy */
       uint8_t channel = qualities[i].channel;
       tsch_stat_t ewma_metric = qualities[i].metric;
@@ -312,7 +318,7 @@ bool tsch_cs_process(void)
     return true;
   }
 
-  LOG_DBG("cs: no changes\n");
+  printf("cs: no changes\n");
   return false;
 }
 /*---------------------------------------------------------------------------*/
@@ -334,10 +340,16 @@ void tsch_cs_channel_stats_updated(uint8_t updated_channel, uint16_t old_busynes
     return;
   }
 
+  printf("\ncs: Checking channel: %u \n", updated_channel);
+
   index = tsch_stats_channel_to_index(updated_channel);
 
   old_is_busy = (old_busyness_metric < TSCH_CS_FREE_THRESHOLD);
   new_is_busy = (tsch_stats.channel_free_ewma[index] < TSCH_CS_FREE_THRESHOLD);
+
+  printf("\ncs: Channel free ewma: %u   |   Threshold: %u\n", tsch_stats.channel_free_ewma[index], TSCH_CS_FREE_THRESHOLD);
+
+  printf("\ncs: Old is busy = %u   |   New is busy: %u \n", old_is_busy, new_is_busy);
 
   if (old_is_busy != new_is_busy)
   {

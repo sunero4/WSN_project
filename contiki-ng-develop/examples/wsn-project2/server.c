@@ -67,15 +67,34 @@ AUTOSTART_PROCESSES(&nullnet_example_process);
 void input_callback(const void *data, uint16_t len,
                     const linkaddr_t *src, const linkaddr_t *dest)
 {
-  if (len == sizeof(unsigned))
+
+  unsigned count;
+  memcpy(&count, data, sizeof(count));
+  LOG_INFO("Received %c from ", (char)count);
+  LOG_INFO_LLADDR(src);
+  LOG_INFO_("\n");
+
+  /*
+  char payload_char[32] = {0};
+  unsigned payload;
+  memcpy(&payload, data, sizeof(payload));
+
+
+  for (size_t i = 0; i < 32; i++)
   {
-    unsigned count;
-    memcpy(&count, data, sizeof(count));
-    LOG_INFO("Received %u from ", count);
-    LOG_INFO_LLADDR(src);
-    LOG_INFO_("\n");
+    payload_char[i] = (char)payload++;
+    printf("Hej received 1");
+    printf("Received : %c", payload_char[i]);
   }
+
+  printf("Hej received 2\n");
+
+  LOG_INFO("Received %c from ", payload_char);
+  LOG_INFO_LLADDR(src);
+  LOG_INFO_("\n");
+  */
 }
+
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(nullnet_example_process, ev, data)
 {
@@ -90,13 +109,13 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
   tsch_cs_adaptations_init();
 #endif /* MAC_CONF_WITH_TSCH */
 
-  
   /* Initialize NullNet */
   nullnet_buf = (uint8_t *)&count;
   nullnet_len = sizeof(count);
   nullnet_set_input_callback(input_callback);
 
   etimer_set(&periodic_timer, SEND_INTERVAL);
+
   while (1)
   {
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));

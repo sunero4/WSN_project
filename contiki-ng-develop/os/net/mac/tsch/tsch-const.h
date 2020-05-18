@@ -50,22 +50,27 @@
 /********** Constants **********/
 
 /* Link options */
-#define LINK_OPTION_TX              1
-#define LINK_OPTION_RX              2
-#define LINK_OPTION_SHARED          4
-#define LINK_OPTION_TIME_KEEPING    8
+#define LINK_OPTION_TX 1
+#define LINK_OPTION_RX 2
+#define LINK_OPTION_SHARED 4
+#define LINK_OPTION_TIME_KEEPING 8
 
 /* Default IEEE 802.15.4e hopping sequences, obtained from https://gist.github.com/twatteyne/2e22ee3c1a802b685695 */
 /* 16 channels, sequence length 16 */
-#define TSCH_HOPPING_SEQUENCE_16_16 (uint8_t[]){ 16, 17, 23, 18, 26, 15, 25, 22, 19, 11, 12, 13, 24, 14, 20, 21 }
+#define TSCH_HOPPING_SEQUENCE_16_16 \
+    (uint8_t[]) { 16, 17, 23, 18, 26, 15, 25, 22, 19, 11, 12, 13, 24, 14, 20, 21 }
 /* 4 channels, sequence length 16 */
-#define TSCH_HOPPING_SEQUENCE_4_16 (uint8_t[]){ 20, 26, 25, 26, 15, 15, 25, 20, 26, 15, 26, 25, 20, 15, 20, 25 }
+#define TSCH_HOPPING_SEQUENCE_4_16 \
+    (uint8_t[]) { 20, 26, 25, 26, 15, 15, 25, 20, 26, 15, 26, 25, 20, 15, 20, 25 }
 /* 4 channels, sequence length 4 */
-#define TSCH_HOPPING_SEQUENCE_4_4 (uint8_t[]){ 15, 25, 26, 20 }
+#define TSCH_HOPPING_SEQUENCE_4_4 \
+    (uint8_t[]) { 15, 25, 26, 20 }
 /* 2 channels, sequence length 2 */
-#define TSCH_HOPPING_SEQUENCE_2_2 (uint8_t[]){ 20, 25 }
+#define TSCH_HOPPING_SEQUENCE_2_2 \
+    (uint8_t[]) { 20, 25 }
 /* 1 channel, sequence length 1 */
-#define TSCH_HOPPING_SEQUENCE_1_1 (uint8_t[]){ 20 }
+#define TSCH_HOPPING_SEQUENCE_1_1 \
+    (uint8_t[]) { 20 }
 
 /* Max TSCH packet length equal to the length of the packet buffer */
 #define TSCH_PACKET_MAX_LEN PACKETBUF_SIZE
@@ -79,10 +84,10 @@
 #define TSCH_SLOTS_PER_SECOND (1000000 / tsch_timing_us[tsch_ts_timeslot_length])
 
 /* Calculate packet tx/rx duration in rtimer ticks based on packet length in bytes. */
-#define TSCH_PACKET_DURATION(len) US_TO_RTIMERTICKS(RADIO_BYTE_AIR_TIME * ((len) + RADIO_PHY_OVERHEAD))
+#define TSCH_PACKET_DURATION(len) US_TO_RTIMERTICKS(RADIO_BYTE_AIR_TIME *((len) + RADIO_PHY_OVERHEAD))
 
 /* Convert rtimer ticks to clock and vice versa */
-#define TSCH_CLOCK_TO_TICKS(c) (((c) * RTIMER_SECOND) / CLOCK_SECOND)
+#define TSCH_CLOCK_TO_TICKS(c) (((c)*RTIMER_SECOND) / CLOCK_SECOND)
 #define TSCH_CLOCK_TO_SLOTS(c, timeslot_length) (TSCH_CLOCK_TO_TICKS(c) / timeslot_length)
 
 #endif /* __TSCH_CONST_H__ */

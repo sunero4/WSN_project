@@ -43,6 +43,7 @@
 #include "net/nullnet/nullnet.h"
 #include <string.h>
 #include <stdio.h> /* For printf() */
+#include "lib/random.h"
 
 /* Log configuration */
 #include "sys/log.h"
@@ -50,7 +51,7 @@
 #define LOG_LEVEL LOG_LEVEL_INFO
 
 /* Configuration */
-#define SEND_INTERVAL (8 * CLOCK_SECOND)
+#define SEND_INTERVAL (60 * CLOCK_SECOND)
 
 #if MAC_CONF_WITH_TSCH
 #include "net/mac/tsch/tsch.h"
@@ -81,6 +82,8 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
 {
   static struct etimer periodic_timer;
   static unsigned count = 0;
+  char payload[32] = {0};
+  uint8_t payload_int[32] = {0};
 
   PROCESS_BEGIN();
 
@@ -91,20 +94,28 @@ PROCESS_THREAD(nullnet_example_process, ev, data)
 #endif /* MAC_CONF_WITH_TSCH */
 
   /* Initialize NullNet */
-  nullnet_buf = (uint8_t *)&count;
-  nullnet_len = sizeof(count);
+
+  nullnet_buf = payload_int;
+  nullnet_len = sizeof(payload_int);
   nullnet_set_input_callback(input_callback);
 
   etimer_set(&periodic_timer, SEND_INTERVAL);
   while (1)
   {
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
-    LOG_INFO("Sending %u to ", count);
+    LOG_INFO("Sending %u ", count);
     LOG_INFO_LLADDR(NULL);
     LOG_INFO_("\n");
 
-    memcpy(nullnet_buf, &count, sizeof(count));
-    nullnet_len = sizeof(count);
+    snprintf(payload, sizeof(payload), "Hej %d", count);
+
+    for (size_t i = 0; i < 32; i++)
+    {
+      payload_int[i] = (uint8_t)payload[i];
+    }
+
+    memcpy(nullnet_buf, &payload_int, sizeof(payload_int));
+    nullnet_len = sizeof(payload_int);
 
     NETSTACK_NETWORK.output(NULL);
     count++;

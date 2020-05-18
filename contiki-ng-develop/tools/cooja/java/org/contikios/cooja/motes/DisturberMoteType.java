@@ -106,7 +106,7 @@ public class DisturberMoteType extends AbstractApplicationMoteType {
         radio = (ApplicationRadio) getInterfaces().getRadio();
       }
 
-      radio.setChannel(20);
+      radio.setChannel(11);
       
       /* Start sending interfering traffic */
       /*logger.info("Sending radio packet on channel: " + radio.getChannel());*/
