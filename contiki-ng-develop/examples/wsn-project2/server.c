@@ -42,6 +42,7 @@
 #include "sys/energest.h"
 #include "net/netstack.h"
 #include "net/nullnet/nullnet.h"
+#include "dev/radio.h"
 #include <string.h>
 #include <stdio.h> /* For printf() */
 
@@ -84,18 +85,25 @@ to_seconds(uint64_t time)
 PROCESS_THREAD(nullnet_example_process, ev, data)
 {
   static struct etimer periodic_timer;
+  static char payload[32] = {0};
 
   PROCESS_BEGIN();
 
 #if MAC_CONF_WITH_TSCH
   tsch_set_coordinator(linkaddr_cmp(&coordinator_addr, &linkaddr_node_addr));
-#endif /* MAC_CONF_WITH_TSCH */
   NETSTACK_MAC.on();
-#if MAC_CONF_WITH_TSCH
   tsch_cs_adaptations_init();
-#endif
+#endif /* MAC_CONF_WITH_TSCH */
 
   nullnet_set_input_callback(input_callback);
+
+#if MAC_CONF_WITH_CSMA
+  snprintf(payload, 32, "Hello, Im the sink");
+  nullnet_buf = (uint8_t *)&payload;
+  memcpy(nullnet_buf, &payload, sizeof(payload));
+  nullnet_len = sizeof(payload);
+  NETSTACK_NETWORK.output(NULL);
+#endif
 
   etimer_set(&periodic_timer, SLEEP_INTERVAL);
 
