@@ -1,4 +1,4 @@
-CONTIKI_PROJECT = nullnet-unicast client server
+CONTIKI_PROJECT = nullnet-unicast client server client_test server_test
 all: $(CONTIKI_PROJECT)
 
 CONTIKI = ../..

@@ -1,0 +1,932 @@
+00:01.099	ID:2	[INFO: Main      ] Starting Contiki-NG
+00:01.102	ID:2	[INFO: Main      ] - Routing: nullrouting
+00:01.105	ID:2	[INFO: Main      ] - Net: nullnet
+00:01.107	ID:2	[INFO: Main      ] - MAC: CSMA
+00:01.110	ID:2	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:01.114	ID:2	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:01.116	ID:2	[INFO: Main      ] Node ID: 2
+00:01.120	ID:2	[INFO: Main      ] Link-layer address: 0200.0000.0000.0000
+00:01.124	ID:2	[INFO: Z1        ] CC2420 CCA threshold -45
+00:01.245	ID:1	[INFO: Main      ] Starting Contiki-NG
+00:01.248	ID:1	[INFO: Main      ] - Routing: nullrouting
+00:01.251	ID:1	[INFO: Main      ] - Net: nullnet
+00:01.253	ID:1	[INFO: Main      ] - MAC: CSMA
+00:01.256	ID:1	[INFO: Main      ] - 802.15.4 PANID: 0x81a5
+00:01.260	ID:1	[INFO: Main      ] - 802.15.4 Default channel: 26
+00:01.262	ID:1	[INFO: Main      ] Node ID: 1
+00:01.267	ID:1	[INFO: Main      ] Link-layer address: 0100.0000.0000.0000
+00:01.270	ID:1	[INFO: Z1        ] CC2420 CCA threshold -45
+00:01.278	ID:1	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 166, queue length 1, free packets 7
+00:01.283	ID:1	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+00:01.316	ID:1	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 166, tx 0, queue 1
+00:01.321	ID:1	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+00:01.330	ID:1	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 166, status 0, tx 0, coll 0
+00:01.337	ID:1	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 166, status 0, tx 1, coll 0
+00:01.342	ID:1	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+01:00.126	ID:2	Sending Event 0  (NULL LL addr)
+01:00.135	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 80, queue length 1, free packets 7
+01:00.139	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+01:00.162	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 80, tx 0, queue 1
+01:00.167	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+01:00.176	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 80, status 0, tx 0, coll 0
+01:00.177	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+01:00.183	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 80, status 0, tx 1, coll 0
+01:00.184	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 80, len 32
+01:00.187	ID:1	Received: Event 0 0200.0000.0000.0000
+01:00.188	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+01:01.119	ID:2	Sending Alive 0 to (NULL LL addr)
+01:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 81, queue length 1, free packets 7
+01:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3
+01:01.132	ID:2	
+01:01.133	ID:2	Energest:
+01:01.138	ID:2	 CPU             0s LPM        59s DEEP LPM    0s  Total time 60s
+01:01.142	ID:2	 Radio LISTEN   59s TRANSMIT    0s OFF         1s
+01:01.149	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 81, tx 0, queue 1
+01:01.154	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+01:01.163	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 81, status 0, tx 0, coll 0
+01:01.164	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+01:01.169	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 81, status 0, tx 1, coll 0
+01:01.170	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 81, len 32
+01:01.173	ID:1	Received: Alive 0 0200.0000.0000.0000
+01:01.175	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+01:01.278	ID:1	
+01:01.279	ID:1	Energest:
+01:01.284	ID:1	 CPU             0s LPM        59s DEEP LPM    0s  Total time 60s
+01:01.288	ID:1	 Radio LISTEN   60s TRANSMIT    0s OFF         0s
+01:10.142	ID:2	Sending Event 1  (NULL LL addr)
+01:10.150	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 82, queue length 1, free packets 7
+01:10.155	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+01:10.170	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 82, tx 0, queue 1
+01:10.175	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+01:10.183	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 82, status 0, tx 0, coll 0
+01:10.184	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+01:10.190	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 82, status 0, tx 1, coll 0
+01:10.191	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 82, len 32
+01:10.194	ID:1	Received: Event 1 0200.0000.0000.0000
+01:10.195	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+01:20.150	ID:2	Sending Event 2  (NULL LL addr)
+01:20.158	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 83, queue length 1, free packets 7
+01:20.163	ID:2	[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3
+01:20.209	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 83, tx 0, queue 1
+01:20.214	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+01:20.223	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 83, status 0, tx 0, coll 0
+01:20.223	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+01:20.229	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 83, status 0, tx 1, coll 0
+01:20.230	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 83, len 32
+01:20.233	ID:1	Received: Event 2 0200.0000.0000.0000
+01:20.234	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+01:30.158	ID:2	Sending Event 3  (NULL LL addr)
+01:30.166	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 84, queue length 1, free packets 7
+01:30.171	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+01:30.193	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 84, tx 0, queue 1
+01:30.199	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+01:30.207	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 84, status 0, tx 0, coll 0
+01:30.208	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+01:30.214	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 84, status 0, tx 1, coll 0
+01:30.214	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 84, len 32
+01:30.217	ID:1	Received: Event 3 0200.0000.0000.0000
+01:30.219	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+01:40.165	ID:2	Sending Event 4  (NULL LL addr)
+01:40.174	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 85, queue length 1, free packets 7
+01:40.178	ID:2	[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3
+01:40.224	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 85, tx 0, queue 1
+01:40.230	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+01:40.238	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 85, status 0, tx 0, coll 0
+01:40.239	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+01:40.245	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 85, status 0, tx 1, coll 0
+01:40.245	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 85, len 32
+01:40.248	ID:1	Received: Event 4 0200.0000.0000.0000
+01:40.250	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+01:50.173	ID:2	Sending Event 5  (NULL LL addr)
+01:50.181	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 86, queue length 1, free packets 7
+01:50.186	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+01:50.217	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 86, tx 0, queue 1
+01:50.222	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+01:50.230	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 86, status 0, tx 0, coll 0
+01:50.231	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+01:50.237	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 86, status 0, tx 1, coll 0
+01:50.237	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 86, len 32
+01:50.241	ID:1	Received: Event 5 0200.0000.0000.0000
+01:50.242	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+02:00.181	ID:2	Sending Event 6  (NULL LL addr)
+02:00.189	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 87, queue length 1, free packets 7
+02:00.194	ID:2	[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3
+02:00.240	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 87, tx 0, queue 1
+02:00.245	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+02:00.254	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 87, status 0, tx 0, coll 0
+02:00.255	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+02:00.261	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 87, status 0, tx 1, coll 0
+02:00.261	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 87, len 32
+02:00.264	ID:1	Received: Event 6 0200.0000.0000.0000
+02:00.266	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+02:01.119	ID:2	Sending Alive 1 to (NULL LL addr)
+02:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 88, queue length 1, free packets 7
+02:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+02:01.132	ID:2	
+02:01.133	ID:2	Energest:
+02:01.138	ID:2	 CPU             1s LPM       119s DEEP LPM    0s  Total time 120s
+02:01.143	ID:2	 Radio LISTEN  119s TRANSMIT    0s OFF         1s
+02:01.170	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 88, tx 0, queue 1
+02:01.175	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+02:01.183	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 88, status 0, tx 0, coll 0
+02:01.184	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+02:01.190	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 88, status 0, tx 1, coll 0
+02:01.191	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 88, len 32
+02:01.194	ID:1	Received: Alive 1 0200.0000.0000.0000
+02:01.195	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+02:01.278	ID:1	
+02:01.279	ID:1	Energest:
+02:01.284	ID:1	 CPU             1s LPM       119s DEEP LPM    0s  Total time 120s
+02:01.289	ID:1	 Radio LISTEN  120s TRANSMIT    0s OFF         0s
+02:10.189	ID:2	Sending Event 7  (NULL LL addr)
+02:10.197	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 89, queue length 1, free packets 7
+02:10.202	ID:2	[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3
+02:10.248	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 89, tx 0, queue 1
+02:10.253	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+02:10.262	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 89, status 0, tx 0, coll 0
+02:10.263	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+02:10.268	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 89, status 0, tx 1, coll 0
+02:10.269	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 89, len 32
+02:10.272	ID:1	Received: Event 7 0200.0000.0000.0000
+02:10.274	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+02:20.197	ID:2	Sending Event 8  (NULL LL addr)
+02:20.205	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 90, queue length 1, free packets 7
+02:20.210	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+02:20.248	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 90, tx 0, queue 1
+02:20.253	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+02:20.262	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 90, status 0, tx 0, coll 0
+02:20.263	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+02:20.268	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 90, status 0, tx 1, coll 0
+02:20.269	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 90, len 32
+02:20.272	ID:1	Received: Event 8 0200.0000.0000.0000
+02:20.274	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+02:30.204	ID:2	Sending Event 9  (NULL LL addr)
+02:30.213	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 91, queue length 1, free packets 7
+02:30.218	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+02:30.240	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 91, tx 0, queue 1
+02:30.245	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+02:30.254	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 91, status 0, tx 0, coll 0
+02:30.255	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+02:30.261	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 91, status 0, tx 1, coll 0
+02:30.261	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 91, len 32
+02:30.264	ID:1	Received: Event 9 0200.0000.0000.0000
+02:30.266	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+02:40.212	ID:2	Sending Event 10  (NULL LL addr)
+02:40.221	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 92, queue length 1, free packets 7
+02:40.226	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+02:40.271	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 92, tx 0, queue 1
+02:40.277	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+02:40.285	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 92, status 0, tx 0, coll 0
+02:40.286	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+02:40.292	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 92, status 0, tx 1, coll 0
+02:40.292	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 92, len 32
+02:40.295	ID:1	Received: Event 10 0200.0000.0000.0000
+02:40.297	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+02:50.228	ID:2	Sending Event 11  (NULL LL addr)
+02:50.236	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 93, queue length 1, free packets 7
+02:50.241	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+02:50.263	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 93, tx 0, queue 1
+02:50.269	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+02:50.277	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 93, status 0, tx 0, coll 0
+02:50.278	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+02:50.284	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 93, status 0, tx 1, coll 0
+02:50.284	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 93, len 32
+02:50.288	ID:1	Received: Event 11 0200.0000.0000.0000
+02:50.289	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+03:00.244	ID:2	Sending Event 12  (NULL LL addr)
+03:00.252	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 94, queue length 1, free packets 7
+03:00.257	ID:2	[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3
+03:00.271	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 94, tx 0, queue 1
+03:00.277	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+03:00.285	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 94, status 0, tx 0, coll 0
+03:00.286	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+03:00.292	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 94, status 0, tx 1, coll 0
+03:00.292	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 94, len 32
+03:00.295	ID:1	Received: Event 12 0200.0000.0000.0000
+03:00.297	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+03:01.119	ID:2	Sending Alive 2 to (NULL LL addr)
+03:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 95, queue length 1, free packets 7
+03:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+03:01.132	ID:2	
+03:01.133	ID:2	Energest:
+03:01.138	ID:2	 CPU             1s LPM       179s DEEP LPM    0s  Total time 180s
+03:01.143	ID:2	 Radio LISTEN  179s TRANSMIT    0s OFF         1s
+03:01.155	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 95, tx 0, queue 1
+03:01.161	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+03:01.169	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 95, status 0, tx 0, coll 0
+03:01.170	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+03:01.176	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 95, status 0, tx 1, coll 0
+03:01.176	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 95, len 32
+03:01.180	ID:1	Received: Alive 2 0200.0000.0000.0000
+03:01.181	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+03:01.278	ID:1	
+03:01.279	ID:1	Energest:
+03:01.284	ID:1	 CPU             1s LPM       179s DEEP LPM    0s  Total time 180s
+03:01.289	ID:1	 Radio LISTEN  180s TRANSMIT    0s OFF         0s
+03:10.259	ID:2	Sending Event 13  (NULL LL addr)
+03:10.268	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 96, queue length 1, free packets 7
+03:10.272	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+03:10.279	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 96, tx 0, queue 1
+03:10.285	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+03:10.293	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 96, status 0, tx 0, coll 0
+03:10.294	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+03:10.300	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 96, status 0, tx 1, coll 0
+03:10.300	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 96, len 32
+03:10.303	ID:1	Received: Event 13 0200.0000.0000.0000
+03:10.305	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+03:20.275	ID:2	Sending Event 14  (NULL LL addr)
+03:20.283	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 97, queue length 1, free packets 7
+03:20.288	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+03:20.295	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 97, tx 0, queue 1
+03:20.300	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+03:20.309	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 97, status 0, tx 0, coll 0
+03:20.310	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+03:20.316	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 97, status 0, tx 1, coll 0
+03:20.316	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 97, len 32
+03:20.319	ID:1	Received: Event 14 0200.0000.0000.0000
+03:20.321	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+03:30.291	ID:2	Sending Event 15  (NULL LL addr)
+03:30.299	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 98, queue length 1, free packets 7
+03:30.304	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+03:30.311	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 98, tx 0, queue 1
+03:30.316	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+03:30.324	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 98, status 0, tx 0, coll 0
+03:30.325	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+03:30.331	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 98, status 0, tx 1, coll 0
+03:30.331	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 98, len 32
+03:30.335	ID:1	Received: Event 15 0200.0000.0000.0000
+03:30.336	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+03:40.306	ID:2	Sending Event 16  (NULL LL addr)
+03:40.314	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 99, queue length 1, free packets 7
+03:40.319	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+03:40.357	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 99, tx 0, queue 1
+03:40.363	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+03:40.371	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 99, status 0, tx 0, coll 0
+03:40.372	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+03:40.378	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 99, status 0, tx 1, coll 0
+03:40.378	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 99, len 32
+03:40.381	ID:1	Received: Event 16 0200.0000.0000.0000
+03:40.383	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+03:50.322	ID:2	Sending Event 17  (NULL LL addr)
+03:50.330	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 100, queue length 1, free packets 7
+03:50.335	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+03:50.342	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 100, tx 0, queue 1
+03:50.348	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+03:50.356	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 100, status 0, tx 0, coll 0
+03:50.357	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+03:50.363	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 100, status 0, tx 1, coll 0
+03:50.363	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 100, len 32
+03:50.367	ID:1	Received: Event 17 0200.0000.0000.0000
+03:50.368	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:00.337	ID:2	Sending Event 18  (NULL LL addr)
+04:00.346	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 101, queue length 1, free packets 7
+04:00.351	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+04:00.381	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 101, tx 0, queue 1
+04:00.386	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+04:00.395	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 101, status 0, tx 0, coll 0
+04:00.395	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+04:00.402	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 101, status 0, tx 1, coll 0
+04:00.402	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 101, len 32
+04:00.405	ID:1	Received: Event 18 0200.0000.0000.0000
+04:00.407	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:01.119	ID:2	Sending Alive 3 to (NULL LL addr)
+04:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 102, queue length 1, free packets 7
+04:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3
+04:01.132	ID:2	
+04:01.133	ID:2	Energest:
+04:01.139	ID:2	 CPU             2s LPM       238s DEEP LPM    0s  Total time 240s
+04:01.143	ID:2	 Radio LISTEN  239s TRANSMIT    0s OFF         1s
+04:01.185	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 102, tx 0, queue 1
+04:01.191	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+04:01.199	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 102, status 0, tx 0, coll 0
+04:01.200	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+04:01.206	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 102, status 0, tx 1, coll 0
+04:01.206	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 102, len 32
+04:01.210	ID:1	Received: Alive 3 0200.0000.0000.0000
+04:01.211	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:01.278	ID:1	
+04:01.279	ID:1	Energest:
+04:01.284	ID:1	 CPU             1s LPM       239s DEEP LPM    0s  Total time 240s
+04:01.289	ID:1	 Radio LISTEN  240s TRANSMIT    0s OFF         0s
+04:10.353	ID:2	Sending Event 19  (NULL LL addr)
+04:10.361	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 103, queue length 1, free packets 7
+04:10.366	ID:2	[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3
+04:10.381	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 103, tx 0, queue 1
+04:10.386	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+04:10.395	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 103, status 0, tx 0, coll 0
+04:10.395	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+04:10.402	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 103, status 0, tx 1, coll 0
+04:10.402	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 103, len 32
+04:10.405	ID:1	Received: Event 19 0200.0000.0000.0000
+04:10.407	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:20.369	ID:2	Sending Event 20  (NULL LL addr)
+04:20.377	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 104, queue length 1, free packets 7
+04:20.382	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+04:20.420	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 104, tx 0, queue 1
+04:20.425	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+04:20.434	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 104, status 0, tx 0, coll 0
+04:20.435	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+04:20.441	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 104, status 0, tx 1, coll 0
+04:20.441	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 104, len 32
+04:20.444	ID:1	Received: Event 20 0200.0000.0000.0000
+04:20.446	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:30.384	ID:2	Sending Event 21  (NULL LL addr)
+04:30.393	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 105, queue length 1, free packets 7
+04:30.398	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+04:30.420	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 105, tx 0, queue 1
+04:30.425	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+04:30.434	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 105, status 0, tx 0, coll 0
+04:30.435	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+04:30.441	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 105, status 0, tx 1, coll 0
+04:30.441	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 105, len 32
+04:30.444	ID:1	Received: Event 21 0200.0000.0000.0000
+04:30.446	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:40.400	ID:2	Sending Event 22  (NULL LL addr)
+04:40.408	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 106, queue length 1, free packets 7
+04:40.413	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+04:40.459	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 106, tx 0, queue 1
+04:40.464	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+04:40.473	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 106, status 0, tx 0, coll 0
+04:40.479	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+04:40.480	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 106, status 0, tx 1, coll 0
+04:40.485	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:40.485	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 106, len 32
+04:40.489	ID:1	Received: Event 22 0200.0000.0000.0000
+04:50.416	ID:2	Sending Event 23  (NULL LL addr)
+04:50.424	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 107, queue length 1, free packets 7
+04:50.429	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+04:50.451	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 107, tx 0, queue 1
+04:50.456	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+04:50.465	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 107, status 0, tx 0, coll 0
+04:50.472	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 107, status 0, tx 1, coll 0
+04:50.473	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+04:50.477	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+04:50.479	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 107, len 32
+04:50.482	ID:1	Received: Event 23 0200.0000.0000.0000
+05:00.431	ID:2	Sending Event 24  (NULL LL addr)
+05:00.440	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 108, queue length 1, free packets 7
+05:00.444	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+05:00.475	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 108, tx 0, queue 1
+05:00.480	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+05:00.488	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 108, status 0, tx 0, coll 0
+05:00.489	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+05:00.495	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 108, status 0, tx 1, coll 0
+05:00.496	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 108, len 32
+05:00.499	ID:1	Received: Event 24 0200.0000.0000.0000
+05:00.500	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+05:01.119	ID:2	Sending Alive 4 to (NULL LL addr)
+05:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 109, queue length 1, free packets 7
+05:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+05:01.132	ID:2	
+05:01.133	ID:2	Energest:
+05:01.139	ID:2	 CPU             2s LPM       298s DEEP LPM    0s  Total time 300s
+05:01.143	ID:2	 Radio LISTEN  299s TRANSMIT    0s OFF         1s
+05:01.162	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 109, tx 0, queue 1
+05:01.167	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+05:01.176	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 109, status 0, tx 0, coll 0
+05:01.177	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+05:01.183	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 109, status 0, tx 1, coll 0
+05:01.183	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 109, len 32
+05:01.186	ID:1	Received: Alive 4 0200.0000.0000.0000
+05:01.188	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+05:01.278	ID:1	
+05:01.279	ID:1	Energest:
+05:01.284	ID:1	 CPU             1s LPM       299s DEEP LPM    0s  Total time 300s
+05:01.289	ID:1	 Radio LISTEN  300s TRANSMIT    0s OFF         0s
+05:10.447	ID:2	Sending Event 25  (NULL LL addr)
+05:10.455	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 110, queue length 1, free packets 7
+05:10.460	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+05:10.482	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 110, tx 0, queue 1
+05:10.488	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+05:10.496	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 110, status 0, tx 0, coll 0
+05:10.497	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+05:10.503	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 110, status 0, tx 1, coll 0
+05:10.503	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 110, len 32
+05:10.507	ID:1	Received: Event 25 0200.0000.0000.0000
+05:10.508	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+05:20.462	ID:2	Sending Event 26  (NULL LL addr)
+05:20.471	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 111, queue length 1, free packets 7
+05:20.476	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+05:20.506	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 111, tx 0, queue 1
+05:20.511	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+05:20.520	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 111, status 0, tx 0, coll 0
+05:20.520	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+05:20.527	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 111, status 0, tx 1, coll 0
+05:20.527	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 111, len 32
+05:20.530	ID:1	Received: Event 26 0200.0000.0000.0000
+05:20.532	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+05:30.478	ID:2	Sending Event 27  (NULL LL addr)
+05:30.486	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 112, queue length 1, free packets 7
+05:30.491	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+05:30.537	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 112, tx 0, queue 1
+05:30.542	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+05:30.551	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 112, status 0, tx 0, coll 0
+05:30.552	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+05:30.558	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 112, status 0, tx 1, coll 0
+05:30.558	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 112, len 32
+05:30.561	ID:1	Received: Event 27 0200.0000.0000.0000
+05:30.563	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+05:40.494	ID:2	Sending Event 28  (NULL LL addr)
+05:40.502	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 113, queue length 1, free packets 7
+05:40.507	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+05:40.537	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 113, tx 0, queue 1
+05:40.542	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+05:40.551	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 113, status 0, tx 0, coll 0
+05:40.552	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+05:40.558	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 113, status 0, tx 1, coll 0
+05:40.558	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 113, len 32
+05:40.561	ID:1	Received: Event 28 0200.0000.0000.0000
+05:40.563	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+05:50.509	ID:2	Sending Event 29  (NULL LL addr)
+05:50.518	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 114, queue length 1, free packets 7
+05:50.523	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+05:50.553	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 114, tx 0, queue 1
+05:50.558	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+05:50.567	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 114, status 0, tx 0, coll 0
+05:50.567	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+05:50.574	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 114, status 0, tx 1, coll 0
+05:50.574	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 114, len 32
+05:50.577	ID:1	Received: Event 29 0200.0000.0000.0000
+05:50.579	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+06:00.525	ID:2	Sending Event 30  (NULL LL addr)
+06:00.533	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 115, queue length 1, free packets 7
+06:00.538	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+06:00.545	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 115, tx 0, queue 1
+06:00.550	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+06:00.559	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 115, status 0, tx 0, coll 0
+06:00.560	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+06:00.566	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 115, status 0, tx 1, coll 0
+06:00.566	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 115, len 32
+06:00.569	ID:1	Received: Event 30 0200.0000.0000.0000
+06:00.571	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+06:01.119	ID:2	Sending Alive 5 to (NULL LL addr)
+06:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 116, queue length 1, free packets 7
+06:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+06:01.132	ID:2	
+06:01.133	ID:2	Energest:
+06:01.139	ID:2	 CPU             2s LPM       357s DEEP LPM    0s  Total time 360s
+06:01.143	ID:2	 Radio LISTEN  359s TRANSMIT    0s OFF         1s
+06:01.156	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 116, tx 0, queue 1
+06:01.161	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+06:01.170	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 116, status 0, tx 0, coll 0
+06:01.171	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+06:01.177	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 116, status 0, tx 1, coll 0
+06:01.177	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 116, len 32
+06:01.180	ID:1	Received: Alive 5 0200.0000.0000.0000
+06:01.182	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+06:01.278	ID:1	
+06:01.279	ID:1	Energest:
+06:01.284	ID:1	 CPU             1s LPM       358s DEEP LPM    0s  Total time 360s
+06:01.289	ID:1	 Radio LISTEN  360s TRANSMIT    0s OFF         0s
+06:10.541	ID:2	Sending Event 31  (NULL LL addr)
+06:10.549	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 117, queue length 1, free packets 7
+06:10.554	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+06:10.592	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 117, tx 0, queue 1
+06:10.597	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+06:10.606	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 117, status 0, tx 0, coll 0
+06:10.606	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+06:10.613	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 117, status 0, tx 1, coll 0
+06:10.613	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 117, len 32
+06:10.616	ID:1	Received: Event 31 0200.0000.0000.0000
+06:10.618	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+06:20.556	ID:2	Sending Event 32  (NULL LL addr)
+06:20.565	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 118, queue length 1, free packets 7
+06:20.569	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+06:20.576	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 118, tx 0, queue 1
+06:20.582	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+06:20.590	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 118, status 0, tx 0, coll 0
+06:20.591	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+06:20.597	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 118, status 0, tx 1, coll 0
+06:20.597	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 118, len 32
+06:20.601	ID:1	Received: Event 32 0200.0000.0000.0000
+06:20.602	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+06:30.572	ID:2	Sending Event 33  (NULL LL addr)
+06:30.580	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 119, queue length 1, free packets 7
+06:30.585	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+06:30.623	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 119, tx 0, queue 1
+06:30.628	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+06:30.637	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 119, status 0, tx 0, coll 0
+06:30.638	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+06:30.644	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 119, status 0, tx 1, coll 0
+06:30.644	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 119, len 32
+06:30.647	ID:1	Received: Event 33 0200.0000.0000.0000
+06:30.649	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+06:40.587	ID:2	Sending Event 34  (NULL LL addr)
+06:40.596	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 120, queue length 1, free packets 7
+06:40.601	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+06:40.631	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 120, tx 0, queue 1
+06:40.636	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+06:40.645	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 120, status 0, tx 0, coll 0
+06:40.645	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+06:40.652	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 120, status 0, tx 1, coll 0
+06:40.652	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 120, len 32
+06:40.655	ID:1	Received: Event 34 0200.0000.0000.0000
+06:40.657	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+06:50.603	ID:2	Sending Event 35  (NULL LL addr)
+06:50.611	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 121, queue length 1, free packets 7
+06:50.616	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+06:50.662	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 121, tx 0, queue 1
+06:50.667	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+06:50.676	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 121, status 0, tx 0, coll 0
+06:50.677	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+06:50.683	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 121, status 0, tx 1, coll 0
+06:50.683	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 121, len 32
+06:50.686	ID:1	Received: Event 35 0200.0000.0000.0000
+06:50.688	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+07:00.619	ID:2	Sending Event 36  (NULL LL addr)
+07:00.627	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 122, queue length 1, free packets 7
+07:00.632	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+07:00.654	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 122, tx 0, queue 1
+07:00.660	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+07:00.668	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 122, status 0, tx 0, coll 0
+07:00.669	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+07:00.675	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 122, status 0, tx 1, coll 0
+07:00.675	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 122, len 32
+07:00.679	ID:1	Received: Event 36 0200.0000.0000.0000
+07:00.680	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+07:01.119	ID:2	Sending Alive 6 to (NULL LL addr)
+07:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 123, queue length 1, free packets 7
+07:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+07:01.132	ID:2	
+07:01.133	ID:2	Energest:
+07:01.139	ID:2	 CPU             3s LPM       417s DEEP LPM    0s  Total time 420s
+07:01.143	ID:2	 Radio LISTEN  419s TRANSMIT    0s OFF         1s
+07:01.178	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 123, tx 0, queue 1
+07:01.183	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+07:01.192	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 123, status 0, tx 0, coll 0
+07:01.192	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+07:01.199	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 123, status 0, tx 1, coll 0
+07:01.199	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 123, len 32
+07:01.202	ID:1	Received: Alive 6 0200.0000.0000.0000
+07:01.204	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+07:01.278	ID:1	
+07:01.279	ID:1	Energest:
+07:01.284	ID:1	 CPU             2s LPM       418s DEEP LPM    0s  Total time 420s
+07:01.289	ID:1	 Radio LISTEN  420s TRANSMIT    0s OFF         0s
+07:10.634	ID:2	Sending Event 37  (NULL LL addr)
+07:10.643	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 124, queue length 1, free packets 7
+07:10.648	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+07:10.678	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 124, tx 0, queue 1
+07:10.683	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+07:10.692	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 124, status 0, tx 0, coll 0
+07:10.692	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+07:10.699	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 124, status 0, tx 1, coll 0
+07:10.699	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 124, len 32
+07:10.702	ID:1	Received: Event 37 0200.0000.0000.0000
+07:10.704	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+07:20.650	ID:2	Sending Event 38  (NULL LL addr)
+07:20.658	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 125, queue length 1, free packets 7
+07:20.663	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+07:20.670	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 125, tx 0, queue 1
+07:20.675	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+07:20.684	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 125, status 0, tx 0, coll 0
+07:20.685	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+07:20.691	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 125, status 0, tx 1, coll 0
+07:20.691	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 125, len 32
+07:20.694	ID:1	Received: Event 38 0200.0000.0000.0000
+07:20.696	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+07:30.666	ID:2	Sending Event 39  (NULL LL addr)
+07:30.674	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 126, queue length 1, free packets 7
+07:30.679	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+07:30.709	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 126, tx 0, queue 1
+07:30.714	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+07:30.723	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 126, status 0, tx 0, coll 0
+07:30.724	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+07:30.730	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 126, status 0, tx 1, coll 0
+07:30.730	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 126, len 32
+07:30.733	ID:1	Received: Event 39 0200.0000.0000.0000
+07:30.735	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+07:40.681	ID:2	Sending Event 40  (NULL LL addr)
+07:40.690	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 127, queue length 1, free packets 7
+07:40.694	ID:2	[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3
+07:40.748	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 127, tx 0, queue 1
+07:40.753	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+07:40.762	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 127, status 0, tx 0, coll 0
+07:40.763	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+07:40.769	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 127, status 0, tx 1, coll 0
+07:40.769	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 127, len 32
+07:40.772	ID:1	Received: Event 40 0200.0000.0000.0000
+07:40.774	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+07:50.697	ID:2	Sending Event 41  (NULL LL addr)
+07:50.705	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 128, queue length 1, free packets 7
+07:50.710	ID:2	[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3
+07:50.725	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 128, tx 0, queue 1
+07:50.730	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+07:50.738	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 128, status 0, tx 0, coll 0
+07:50.739	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+07:50.745	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 128, status 0, tx 1, coll 0
+07:50.746	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 128, len 32
+07:50.749	ID:1	Received: Event 41 0200.0000.0000.0000
+07:50.750	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+08:00.712	ID:2	Sending Event 42  (NULL LL addr)
+08:00.721	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 129, queue length 1, free packets 7
+08:00.726	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+08:00.748	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 129, tx 0, queue 1
+08:00.753	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+08:00.762	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 129, status 0, tx 0, coll 0
+08:00.763	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+08:00.769	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 129, status 0, tx 1, coll 0
+08:00.769	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 129, len 32
+08:00.772	ID:1	Received: Event 42 0200.0000.0000.0000
+08:00.774	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+08:01.119	ID:2	Sending Alive 7 to (NULL LL addr)
+08:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 130, queue length 1, free packets 7
+08:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+08:01.132	ID:2	
+08:01.133	ID:2	Energest:
+08:01.139	ID:2	 CPU             3s LPM       476s DEEP LPM    0s  Total time 480s
+08:01.143	ID:2	 Radio LISTEN  479s TRANSMIT    0s OFF         1s
+08:01.170	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 130, tx 0, queue 1
+08:01.175	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+08:01.184	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 130, status 0, tx 0, coll 0
+08:01.185	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+08:01.191	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 130, status 0, tx 1, coll 0
+08:01.191	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 130, len 32
+08:01.194	ID:1	Received: Alive 7 0200.0000.0000.0000
+08:01.196	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+08:01.278	ID:1	
+08:01.279	ID:1	Energest:
+08:01.284	ID:1	 CPU             2s LPM       478s DEEP LPM    0s  Total time 480s
+08:01.289	ID:1	 Radio LISTEN  480s TRANSMIT    0s OFF         0s
+08:10.728	ID:2	Sending Event 43  (NULL LL addr)
+08:10.736	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 131, queue length 1, free packets 7
+08:10.741	ID:2	[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3
+08:10.756	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 131, tx 0, queue 1
+08:10.761	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+08:10.770	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 131, status 0, tx 0, coll 0
+08:10.770	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+08:10.777	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 131, status 0, tx 1, coll 0
+08:10.777	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 131, len 32
+08:10.780	ID:1	Received: Event 43 0200.0000.0000.0000
+08:10.782	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+08:20.744	ID:2	Sending Event 44  (NULL LL addr)
+08:20.752	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 132, queue length 1, free packets 7
+08:20.757	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+08:20.803	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 132, tx 0, queue 1
+08:20.808	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+08:20.817	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 132, status 0, tx 0, coll 0
+08:20.817	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+08:20.824	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 132, status 0, tx 1, coll 0
+08:20.824	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 132, len 32
+08:20.827	ID:1	Received: Event 44 0200.0000.0000.0000
+08:20.829	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+08:30.759	ID:2	Sending Event 45  (NULL LL addr)
+08:30.768	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 133, queue length 1, free packets 7
+08:30.773	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+08:30.780	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 133, tx 0, queue 1
+08:30.785	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+08:30.793	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 133, status 0, tx 0, coll 0
+08:30.794	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+08:30.800	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 133, status 0, tx 1, coll 0
+08:30.801	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 133, len 32
+08:30.804	ID:1	Received: Event 45 0200.0000.0000.0000
+08:30.805	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+08:40.775	ID:2	Sending Event 46  (NULL LL addr)
+08:40.783	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 134, queue length 1, free packets 7
+08:40.788	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+08:40.826	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 134, tx 0, queue 1
+08:40.831	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+08:40.840	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 134, status 0, tx 0, coll 0
+08:40.841	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+08:40.847	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 134, status 0, tx 1, coll 0
+08:40.847	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 134, len 32
+08:40.850	ID:1	Received: Event 46 0200.0000.0000.0000
+08:40.852	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+08:50.791	ID:2	Sending Event 47  (NULL LL addr)
+08:50.799	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 135, queue length 1, free packets 7
+08:50.804	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+08:50.834	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 135, tx 0, queue 1
+08:50.839	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+08:50.848	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 135, status 0, tx 0, coll 0
+08:50.849	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+08:50.855	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 135, status 0, tx 1, coll 0
+08:50.855	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 135, len 32
+08:50.858	ID:1	Received: Event 47 0200.0000.0000.0000
+08:50.860	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+09:00.806	ID:2	Sending Event 48  (NULL LL addr)
+09:00.815	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 136, queue length 1, free packets 7
+09:00.819	ID:2	[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3
+09:00.834	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 136, tx 0, queue 1
+09:00.839	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+09:00.848	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 136, status 0, tx 0, coll 0
+09:00.849	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+09:00.855	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 136, status 0, tx 1, coll 0
+09:00.855	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 136, len 32
+09:00.858	ID:1	Received: Event 48 0200.0000.0000.0000
+09:00.860	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+09:01.119	ID:2	Sending Alive 8 to (NULL LL addr)
+09:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 137, queue length 1, free packets 7
+09:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 6 ticks, NB=0, BE=3
+09:01.132	ID:2	
+09:01.133	ID:2	Energest:
+09:01.139	ID:2	 CPU             4s LPM       536s DEEP LPM    0s  Total time 540s
+09:01.143	ID:2	 Radio LISTEN  539s TRANSMIT    0s OFF         1s
+09:01.185	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 137, tx 0, queue 1
+09:01.191	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+09:01.199	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 137, status 0, tx 0, coll 0
+09:01.200	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+09:01.206	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 137, status 0, tx 1, coll 0
+09:01.206	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 137, len 32
+09:01.210	ID:1	Received: Alive 8 0200.0000.0000.0000
+09:01.211	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+09:01.278	ID:1	
+09:01.279	ID:1	Energest:
+09:01.284	ID:1	 CPU             2s LPM       538s DEEP LPM    0s  Total time 540s
+09:01.289	ID:1	 Radio LISTEN  540s TRANSMIT    0s OFF         0s
+09:10.822	ID:2	Sending Event 49  (NULL LL addr)
+09:10.830	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 138, queue length 1, free packets 7
+09:10.835	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+09:10.865	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 138, tx 0, queue 1
+09:10.871	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+09:10.879	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 138, status 0, tx 0, coll 0
+09:10.880	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+09:10.886	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 138, status 0, tx 1, coll 0
+09:10.886	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 138, len 32
+09:10.889	ID:1	Received: Event 49 0200.0000.0000.0000
+09:10.891	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+09:20.837	ID:2	Sending Event 50  (NULL LL addr)
+09:20.846	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 139, queue length 1, free packets 7
+09:20.851	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+09:20.858	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 139, tx 0, queue 1
+09:20.863	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+09:20.872	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 139, status 0, tx 0, coll 0
+09:20.872	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+09:20.878	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 139, status 0, tx 1, coll 0
+09:20.879	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 139, len 32
+09:20.882	ID:1	Received: Event 50 0200.0000.0000.0000
+09:20.884	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+09:30.853	ID:2	Sending Event 51  (NULL LL addr)
+09:30.861	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 140, queue length 1, free packets 7
+09:30.866	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+09:30.912	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 140, tx 0, queue 1
+09:30.917	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+09:30.926	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 140, status 0, tx 0, coll 0
+09:30.927	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+09:30.933	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 140, status 0, tx 1, coll 0
+09:30.933	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 140, len 32
+09:30.936	ID:1	Received: Event 51 0200.0000.0000.0000
+09:30.938	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+09:40.869	ID:2	Sending Event 52  (NULL LL addr)
+09:40.877	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 141, queue length 1, free packets 7
+09:40.882	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+09:40.889	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 141, tx 0, queue 1
+09:40.894	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+09:40.903	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 141, status 0, tx 0, coll 0
+09:40.904	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+09:40.910	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 141, status 0, tx 1, coll 0
+09:40.910	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 141, len 32
+09:40.913	ID:1	Received: Event 52 0200.0000.0000.0000
+09:40.915	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+09:50.884	ID:2	Sending Event 53  (NULL LL addr)
+09:50.893	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 142, queue length 1, free packets 7
+09:50.898	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+09:50.935	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 142, tx 0, queue 1
+09:50.941	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+09:50.949	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 142, status 0, tx 0, coll 0
+09:50.950	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+09:50.956	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 142, status 0, tx 1, coll 0
+09:50.956	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 142, len 32
+09:50.960	ID:1	Received: Event 53 0200.0000.0000.0000
+09:50.961	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+10:00.900	ID:2	Sending Event 54  (NULL LL addr)
+10:00.908	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 143, queue length 1, free packets 7
+10:00.913	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+10:00.935	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 143, tx 0, queue 1
+10:00.941	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+10:00.949	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 143, status 0, tx 0, coll 0
+10:00.950	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+10:00.956	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 143, status 0, tx 1, coll 0
+10:00.956	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 143, len 32
+10:00.960	ID:1	Received: Event 54 0200.0000.0000.0000
+10:00.961	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+10:01.119	ID:2	Sending Alive 9 to (NULL LL addr)
+10:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 144, queue length 1, free packets 7
+10:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 4 ticks, NB=0, BE=3
+10:01.132	ID:2	
+10:01.133	ID:2	Energest:
+10:01.139	ID:2	 CPU             4s LPM       596s DEEP LPM    0s  Total time 600s
+10:01.143	ID:2	 Radio LISTEN  599s TRANSMIT    0s OFF         0s
+10:01.170	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 144, tx 0, queue 1
+10:01.175	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+10:01.184	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 144, status 0, tx 0, coll 0
+10:01.185	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+10:01.191	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 144, status 0, tx 1, coll 0
+10:01.191	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 144, len 32
+10:01.194	ID:1	Received: Alive 9 0200.0000.0000.0000
+10:01.196	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+10:01.278	ID:1	
+10:01.279	ID:1	Energest:
+10:01.284	ID:1	 CPU             2s LPM       598s DEEP LPM    0s  Total time 600s
+10:01.289	ID:1	 Radio LISTEN  600s TRANSMIT    0s OFF         0s
+10:10.916	ID:2	Sending Event 55  (NULL LL addr)
+10:10.924	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 145, queue length 1, free packets 7
+10:10.929	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+10:10.975	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 145, tx 0, queue 1
+10:10.980	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+10:10.988	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 145, status 0, tx 0, coll 0
+10:10.989	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+10:10.995	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 145, status 0, tx 1, coll 0
+10:10.996	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 145, len 32
+10:10.999	ID:1	Received: Event 55 0200.0000.0000.0000
+10:11.000	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+10:20.931	ID:2	Sending Event 56  (NULL LL addr)
+10:20.940	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 146, queue length 1, free packets 7
+10:20.944	ID:2	[DBG : CSMA      ] scheduling transmission in 1 ticks, NB=0, BE=3
+10:20.959	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 146, tx 0, queue 1
+10:20.964	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+10:20.973	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 146, status 0, tx 0, coll 0
+10:20.974	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+10:20.980	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 146, status 0, tx 1, coll 0
+10:20.980	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 146, len 32
+10:20.983	ID:1	Received: Event 56 0200.0000.0000.0000
+10:20.985	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+10:30.947	ID:2	Sending Event 57  (NULL LL addr)
+10:30.955	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 147, queue length 1, free packets 7
+10:30.960	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+10:30.967	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 147, tx 0, queue 1
+10:30.972	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+10:30.981	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 147, status 0, tx 0, coll 0
+10:30.982	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+10:30.988	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 147, status 0, tx 1, coll 0
+10:30.988	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 147, len 32
+10:30.991	ID:1	Received: Event 57 0200.0000.0000.0000
+10:30.993	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+10:40.962	ID:2	Sending Event 58  (NULL LL addr)
+10:40.971	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 148, queue length 1, free packets 7
+10:40.976	ID:2	[DBG : CSMA      ] scheduling transmission in 2 ticks, NB=0, BE=3
+10:40.998	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 148, tx 0, queue 1
+10:41.003	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+10:41.012	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 148, status 0, tx 0, coll 0
+10:41.013	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+10:41.019	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 148, status 0, tx 1, coll 0
+10:41.019	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 148, len 32
+10:41.022	ID:1	Received: Event 58 0200.0000.0000.0000
+10:41.024	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+10:50.978	ID:2	Sending Event 59  (NULL LL addr)
+10:50.986	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 149, queue length 1, free packets 7
+10:50.991	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+10:50.998	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 149, tx 0, queue 1
+10:51.004	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+10:51.012	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 149, status 0, tx 0, coll 0
+10:51.013	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+10:51.019	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 149, status 0, tx 1, coll 0
+10:51.019	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 149, len 32
+10:51.023	ID:1	Received: Event 59 0200.0000.0000.0000
+10:51.024	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+11:00.994	ID:2	Sending Event 60  (NULL LL addr)
+11:01.002	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 150, queue length 1, free packets 7
+11:01.007	ID:2	[DBG : CSMA      ] scheduling transmission in 0 ticks, NB=0, BE=3
+11:01.014	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 150, tx 0, queue 1
+11:01.019	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+11:01.028	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 150, status 0, tx 0, coll 0
+11:01.029	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+11:01.035	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 150, status 0, tx 1, coll 0
+11:01.035	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 150, len 32
+11:01.038	ID:1	Received: Event 60 0200.0000.0000.0000
+11:01.040	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+11:01.119	ID:2	Sending Alive 10 to (NULL LL addr)
+11:01.127	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 151, queue length 1, free packets 7
+11:01.132	ID:2	[DBG : CSMA      ] scheduling transmission in 3 ticks, NB=0, BE=3
+11:01.132	ID:2	
+11:01.133	ID:2	Energest:
+11:01.139	ID:2	 CPU             5s LPM       655s DEEP LPM    0s  Total time 660s
+11:01.143	ID:2	 Radio LISTEN  659s TRANSMIT    0s OFF         0s
+11:01.162	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 151, tx 0, queue 1
+11:01.167	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+11:01.176	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 151, status 0, tx 0, coll 0
+11:01.177	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+11:01.183	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 151, status 0, tx 1, coll 0
+11:01.183	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 151, len 32
+11:01.186	ID:1	Received: Alive 10 0200.0000.0000.0000
+11:01.188	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+11:01.278	ID:1	
+11:01.279	ID:1	Energest:
+11:01.284	ID:1	 CPU             2s LPM       657s DEEP LPM    0s  Total time 660s
+11:01.289	ID:1	 Radio LISTEN  660s TRANSMIT    0s OFF         0s
+11:11.009	ID:2	Sending Event 61  (NULL LL addr)
+11:11.018	ID:2	[INFO: CSMA      ] sending to 0000.0000.0000.0000, len 32, seqno 152, queue length 1, free packets 7
+11:11.023	ID:2	[DBG : CSMA      ] scheduling transmission in 5 ticks, NB=0, BE=3
+11:11.068	ID:2	[INFO: CSMA      ] preparing packet for 0000.0000.0000.0000, seqno 152, tx 0, queue 1
+11:11.074	ID:2	[INFO: Frame 15.4] Out:  1 ffff.0000.0000.0000 15 32 (47)
+11:11.082	ID:2	[INFO: CSMA      ] tx to 0000.0000.0000.0000, seqno 152, status 0, tx 0, coll 0
+11:11.083	ID:1	[INFO: Frame 15.4] In:  1 0200.0000.0000.0000 0000.0000.0000.0000 15 32 (47)
+11:11.089	ID:2	[INFO: CSMA      ] packet sent to 0000.0000.0000.0000, seqno 152, status 0, tx 1, coll 0
+11:11.089	ID:1	[INFO: CSMA      ] received packet from 0200.0000.0000.0000, seqno 152, len 32
+11:11.093	ID:1	Received: Event 61 0200.0000.0000.0000
+11:11.094	ID:2	[DBG : CSMA      ] free_queued_packet, queue length 0, free packets 8
+
+
+AVG ON 1324228917 us 98.18 %
+AVG TX 134762 us 0.01 %
+AVG RX 0 us 0.00 %
+AVG INT 133036 us 0.01 %
+Z1_1 MONITORED 674355018 us
+Z1_1 ON 651033534 us 96.54 %
+Z1_1 TX 133036 us 0.02 %
+Z1_1 RX 0 us 0.00 %
+Z1_1 INT 0 us 0.00 %
+Z1_2 MONITORED 674354986 us
+Z1_2 ON 673195383 us 99.83 %
+Z1_2 TX 1726 us 0.00 %
+Z1_2 RX 0 us 0.00 %
+Z1_2 INT 133036 us 0.02 %
