@@ -92,7 +92,6 @@ tsch_cs_bitmap_contains(tsch_cs_bitmap_t bitmap, uint8_t channel)
 static inline tsch_cs_bitmap_t
 tsch_cs_bitmap_set(tsch_cs_bitmap_t bitmap, uint8_t channel)
 {
-  printf("HEJ CHANNEL: %u \n", channel);
   return (1 << (channel - TSCH_STATS_FIRST_CHANNEL)) | bitmap;
 }
 /*---------------------------------------------------------------------------*/
@@ -256,11 +255,11 @@ bool tsch_cs_process(void)
   {
     uint8_t ci = qualities[i].channel - TSCH_STATS_FIRST_CHANNEL;
     (void)ci;
-    LOG_DBG("ch %u q %u busy %u in seq %u\n",
-            qualities[i].channel,
-            qualities[i].metric,
-            is_channel_busy[ci],
-            is_in_sequence[ci] == 0xff ? 0 : 1);
+    printf("ch %u q %u busy %u in seq %u\n",
+           qualities[i].channel,
+           qualities[i].metric,
+           is_channel_busy[ci],
+           is_in_sequence[ci] == 0xff ? 0 : 1);
   }
 
   try_replace = false;
@@ -274,13 +273,15 @@ bool tsch_cs_process(void)
   }
   if (!try_replace)
   {
-    LOG_DBG("cs: not replacing\n");
+    printf("cs: not replacing\n");
     return false;
   }
 
   has_replaced = false;
+
   for (i = TSCH_STATS_NUM_CHANNELS - 1; i >= tsch_hopping_sequence_length.val; --i)
   {
+
     if (is_in_sequence[qualities[i].channel - TSCH_STATS_FIRST_CHANNEL] != 0xff)
     {
       /* found the worst channel; it must be busy */

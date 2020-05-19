@@ -39,6 +39,7 @@
 
 /*INCLUDES*/
 #include "contiki.h"
+#include "dev/cc2420/cc2420.h"
 #include "dev/cc2420/cc2420_const.h" // Include the CC2420 constants
 #include "dev/spi-legacy.h"          // Include basic SPI macros
 #include "dev/leds.h"                // Include Leds to debbug
@@ -50,30 +51,11 @@
 #define LOG_LEVEL LOG_LEVEL_INFO
 
 /*DEFINES*/
-#define INTERFERENCE 0x01   // I set the less significant bit to indicate there is interference (0x01 = 00000000 00000001)
 #define CONSTANT_MICROS 300 // 300 us was defined by the paper [1]
 #define TIME_TICK 31        // The time of 1 tick is 30,51 us in rtimer for sky motes in Contiki v3.0. TIME_TICK = 1 / RTIMER_ARCH_SECOND = 1 / 32768 s
-#define abs(x) ((x) < 0 ? -(x) : (x))
-/*STRUCT DEFINITIONS*/
-struct states
-{
-    unsigned char carrier; // Defines the state of the carrier: Either INTERFERENCE = 0x01 or Not INTERFERENCE = ~0x01
-};
 
-struct states state;         //Create the state of the carrier
 static struct rtimer rtimer; // Create the rtimer variable
-
-/*FUNCTION DEFINITIONS*/
-
-/*---------------------------------------------------------------------------*/
-/*
-* Generate a random number between 0 and (MaxValue - 1)
-*/
-
-unsigned int random_number(unsigned int MaxValue)
-{
-    return random_rand() % MaxValue;
-}
+uint32_t counter;
 /*---------------------------------------------------------------------------*/
 /** 
  * Writes to a register.
@@ -106,66 +88,30 @@ strobe(enum cc2420_register regname)
 */
 static void carrier_OnOff(struct rtimer *timer, void *ptr)
 {
+    uint32_t num_ticks; // Number of ticks of the time_next_period
 
-    unsigned int R;            // Uniformly distributed over [1,100]
-    unsigned int Qx;           // Uniformly distributed over [1,x], where x = 50
-    unsigned int randNum;      // Random number between [1-10]
-    uint32_t time_next_period; // Next time period. The duration of the interference or not interference state.
-    uint32_t num_ticks;        // Number of ticks of the time_next_period
-
-    // Calculate a random number between [1-10]
-    randNum = 1 + abs(random_number(10));
-
-    // Decide whether to produce interference or not with equal probability (0.5)
-    if (randNum <= 5) // If the random number is less than 5 generate no interference
+    if (counter < 42949 && cc2420_get_channel() < 26)
     {
-        // In this case there will be no interference
-        state.carrier &= ~INTERFERENCE; // Set the carrier state to no interference (NOT INTERFERENCE)
+        cc2420_set_channel(cc2420_get_channel() + 1);
+        counter++;
     }
     else
     {
-        // In this case there will be interference
-        state.carrier |= INTERFERENCE; // Set the carrier state to interference
+        cc2420_set_channel(11);
+        counter = 0;
     }
 
-    // Turn the unmodulated carrier on or off depending on the carrier state (state.carrier)
-    if (state.carrier & INTERFERENCE) // should the node generate interference?
-    {
-        //The node must generate interference. Turn the carrier on.
-        // Creates an unmodulated carrier by setting the appropiate registers in the CC2420
-        setreg(CC2420_MANOR, 0x0100);
-        setreg(CC2420_TOPTST, 0x0004);
-        setreg(CC2420_MDMCTRL1, 0x0508);
-        setreg(CC2420_DACTST, 0x1800);
-        strobe(CC2420_STXON);
-        // Turn the leds for debug. LEDS_RED on means there is interference
-        leds_on(LEDS_RED);
-        leds_off(LEDS_GREEN);
-    }
-    else
-    {
-        //The node must not generate interference. Turn the carrier off.
-        //Reset the changes and set back the CC2420 radio chip in normal mode.
-        //Not generate unmodulated carrier
-        setreg(CC2420_MANOR, 0x0000);
-        setreg(CC2420_TOPTST, 0x0010);
-        setreg(CC2420_MDMCTRL1, 0x0500);
-        setreg(CC2420_DACTST, 0x0000);
-        strobe(CC2420_STXON);
-        // Turn the leds for debug. LEDS_GREEN on means there is no interference
-        leds_on(LEDS_GREEN);
-        leds_off(LEDS_RED);
-    }
-    // Calculate the time of the next period ( time_next_period = R*Q(x)*CONSTANT_MICROS )
-    R = 1 + abs(random_number(100)); // Generate random numbers between [1,100]
-    Qx = 1 + abs(random_number(50)); // Generate random numbers between [1,50]
-    time_next_period = R * Qx;
-    time_next_period = 10;                                 //R * Qx;                             // Compute the next time period according to the paper [1]
-    time_next_period = time_next_period * CONSTANT_MICROS; // Compute the next time period according to the paper [1]
+    //The node must generate interference. Turn the carrier on.
+    // Creates an unmodulated carrier by setting the appropiate registers in the CC2420
+    setreg(CC2420_MANOR, 0x0100);
+    setreg(CC2420_TOPTST, 0x0004);
+    setreg(CC2420_MDMCTRL1, 0x0508);
+    setreg(CC2420_DACTST, 0x1800);
+    strobe(CC2420_STXON);
 
-    // Set the rtimer to the time_next_period (num_ticks)
-    num_ticks = time_next_period / TIME_TICK;                              // Compute the number of ticks that corresponds to time_next_period
-                                                                           // printf("Interference = %d ,R = %d, Qx = %d, time = %lu, ticks =  %lu \n", state.carrier & INTERFERENCE, R, Qx, time_next_period, num_ticks); // View the results in console
+    // Set the rtimer to the time_next_period (num_ticks) by compute the next time period according to the paper [1]
+    num_ticks = 10 * CONSTANT_MICROS / TIME_TICK;
+
     rtimer_set(&rtimer, RTIMER_NOW() + num_ticks, 1, carrier_OnOff, NULL); // Set the rtimer again to the time_next_period (num_ticks)
 }
 
@@ -176,7 +122,7 @@ AUTOSTART_PROCESSES(&turn_carrier_OnOff);           // Load the process on boot
 
 PROCESS_THREAD(turn_carrier_OnOff, ev, data) // Process to turn carrier on and off
 {
-
+    counter = 0;
     PROCESS_BEGIN(); // Says where the process starts
 
     rtimer_set(&rtimer, RTIMER_NOW() + RTIMER_ARCH_SECOND, 1, carrier_OnOff, NULL); //Initiates the rtimer 1 second after boot

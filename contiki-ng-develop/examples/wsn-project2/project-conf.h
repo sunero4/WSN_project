@@ -40,6 +40,8 @@
 #include <stdint.h>
 #include <stdbool.h>
 
+#define ENERGEST_CONF_ON 1
+
 /* Set to enable TSCH security */
 #ifndef WITH_SECURITY
 #define WITH_SECURITY 0
@@ -93,6 +95,7 @@ extern bool tsch_cs_process(void);
 #define TSCH_CONF_MAX_EB_PERIOD (4 * CLOCK_SECOND)
 
 #define TSCH_CONF_AUTOSTART 0
+
 /*******************************************************/
 /************* Other system configuration **************/
 /*******************************************************/

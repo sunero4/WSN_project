@@ -54,7 +54,7 @@
  * \brief Initializes the TSCH hopping sequence selection module.
  */
 void tsch_cs_adaptations_init(void);
-    
+
 /**
  * \brief Signal the need to potentially update the TSCH hopping sequence.
  * \param updated_channel     The channel with the updated RSSI measurement
@@ -68,9 +68,7 @@ void tsch_cs_channel_stats_updated(uint8_t updated_channel, uint16_t old_busynes
  */
 bool tsch_cs_process(void);
 
-
 /* A bit corresponds to a channel; `uint16_t` value is OK for up to 16 channels. */
 typedef uint16_t tsch_cs_bitmap_t;
-
 
 #endif /* __TSCH_CS_H__ */
