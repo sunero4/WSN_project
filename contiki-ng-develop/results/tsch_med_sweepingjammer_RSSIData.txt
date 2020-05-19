@@ -1,0 +1,1598 @@
+00:07.095	ID:2	[DBG : TSCH Stats] Noise RSSI:
+00:07.099	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4096/4096 free
+00:07.104	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 4096/4096 free
+00:07.108	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 4096/4096 free
+00:07.112	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 4096/4096 free
+00:07.117	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 4096/4096 free
+00:07.121	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 4096/4096 free
+00:07.126	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 4096/4096 free
+00:07.130	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 4096/4096 free
+00:07.134	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 4096/4096 free
+00:07.139	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 4096/4096 free
+00:07.143	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 4096/4096 free
+00:07.147	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 4096/4096 free
+00:07.152	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 4096/4096 free
+00:07.156	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4096/4096 free
+00:07.161	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 4096/4096 free
+00:07.165	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4096/4096 free
+00:07.242	ID:1	[DBG : TSCH Stats] Noise RSSI:
+00:07.246	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 4096/4096 free
+00:07.250	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 4096/4096 free
+00:07.255	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 4096/4096 free
+00:07.259	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 4096/4096 free
+00:07.264	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 4096/4096 free
+00:07.268	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 4096/4096 free
+00:07.272	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 4096/4096 free
+00:07.277	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4096/4096 free
+00:07.284	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 4096/4096 free
+00:07.289	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 4096/4096 free
+00:07.293	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 4096/4096 free
+00:07.298	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 4096/4096 free
+00:07.302	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 4096/4096 free
+00:07.306	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 4096/4096 free
+00:07.311	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 4096/4096 free
+00:07.315	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 4096/4096 free
+00:31.031	ID:1	ch 13 q 4096 busy 0 in seq 0
+00:31.034	ID:1	ch 15 q 4096 busy 0 in seq 1
+00:31.036	ID:1	ch 16 q 4096 busy 0 in seq 0
+00:31.038	ID:1	ch 18 q 4096 busy 0 in seq 0
+00:31.041	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:31.043	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:31.045	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:31.048	ID:1	ch 25 q 4096 busy 0 in seq 1
+00:31.050	ID:1	ch 26 q 4096 busy 0 in seq 1
+00:31.052	ID:1	ch 19 q 3976 busy 0 in seq 0
+00:31.055	ID:1	ch 24 q 3893 busy 0 in seq 0
+00:31.057	ID:1	ch 11 q 3832 busy 0 in seq 0
+00:31.059	ID:1	ch 12 q 3717 busy 0 in seq 0
+00:31.062	ID:1	ch 20 q 3704 busy 0 in seq 1
+00:31.065	ID:1	ch 14 q 3447 busy 1 in seq 0
+00:31.070	ID:1	ch 17 q 3312 busy 1 in seq 0
+00:31.071	ID:1	cs: not replacing
+00:31.978	ID:1	ch 13 q 4096 busy 0 in seq 0
+00:31.980	ID:1	ch 15 q 4096 busy 0 in seq 1
+00:31.983	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:31.985	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:31.987	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:31.990	ID:1	ch 25 q 4096 busy 0 in seq 1
+00:31.992	ID:1	ch 26 q 4096 busy 0 in seq 1
+00:31.994	ID:1	ch 19 q 4004 busy 0 in seq 0
+00:31.997	ID:1	ch 24 q 3918 busy 0 in seq 0
+00:31.999	ID:1	ch 12 q 3764 busy 0 in seq 0
+00:32.001	ID:1	ch 20 q 3753 busy 0 in seq 1
+00:32.004	ID:1	ch 16 q 3648 busy 0 in seq 0
+00:32.006	ID:1	ch 18 q 3648 busy 0 in seq 0
+00:32.009	ID:1	ch 14 q 3528 busy 0 in seq 0
+00:32.013	ID:1	ch 17 q 3495 busy 0 in seq 0
+00:32.015	ID:1	ch 11 q 3353 busy 1 in seq 0
+00:32.016	ID:1	cs: not replacing
+00:33.150	ID:1	ch 15 q 4096 busy 0 in seq 1
+00:33.152	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:33.155	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:33.157	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:33.159	ID:1	ch 25 q 4096 busy 0 in seq 1
+00:33.162	ID:1	ch 26 q 4096 busy 0 in seq 1
+00:33.164	ID:1	ch 19 q 4015 busy 0 in seq 0
+00:33.166	ID:1	ch 24 q 3959 busy 0 in seq 0
+00:33.169	ID:1	ch 12 q 3841 busy 0 in seq 0
+00:33.171	ID:1	ch 20 q 3832 busy 0 in seq 1
+00:33.173	ID:1	ch 16 q 3704 busy 0 in seq 0
+00:33.176	ID:1	ch 18 q 3704 busy 0 in seq 0
+00:33.178	ID:1	ch 13 q 3648 busy 0 in seq 0
+00:33.181	ID:1	ch 14 q 3599 busy 0 in seq 0
+00:33.186	ID:1	ch 17 q 3570 busy 0 in seq 0
+00:33.188	ID:1	ch 11 q 3526 busy 0 in seq 0
+00:33.190	ID:1	cs: not replacing
+00:36.842	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:36.844	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:36.847	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:36.849	ID:1	ch 25 q 4096 busy 0 in seq 1
+00:36.851	ID:1	ch 19 q 4053 busy 0 in seq 0
+00:36.854	ID:1	ch 24 q 4025 busy 0 in seq 0
+00:36.856	ID:1	ch 12 q 3963 busy 0 in seq 0
+00:36.858	ID:1	ch 20 q 3959 busy 0 in seq 1
+00:36.861	ID:1	ch 16 q 3893 busy 0 in seq 0
+00:36.863	ID:1	ch 18 q 3893 busy 0 in seq 0
+00:36.865	ID:1	ch 14 q 3871 busy 0 in seq 0
+00:36.868	ID:1	ch 17 q 3824 busy 0 in seq 0
+00:36.870	ID:1	ch 11 q 3802 busy 0 in seq 0
+00:36.872	ID:1	ch 15 q 3704 busy 0 in seq 1
+00:36.879	ID:1	ch 26 q 3648 busy 0 in seq 1
+00:36.882	ID:1	ch 13 q 3353 busy 1 in seq 0
+00:36.883	ID:1	cs: not replacing
+00:37.834	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:37.836	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:37.838	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:37.841	ID:1	ch 25 q 4096 busy 0 in seq 1
+00:37.843	ID:1	ch 19 q 4062 busy 0 in seq 0
+00:37.845	ID:1	ch 24 q 4033 busy 0 in seq 0
+00:37.848	ID:1	ch 20 q 3991 busy 0 in seq 1
+00:37.850	ID:1	ch 12 q 3979 busy 0 in seq 0
+00:37.852	ID:1	ch 18 q 3940 busy 0 in seq 0
+00:37.855	ID:1	ch 14 q 3899 busy 0 in seq 0
+00:37.857	ID:1	ch 17 q 3887 busy 0 in seq 0
+00:37.859	ID:1	ch 11 q 3838 busy 0 in seq 0
+00:37.862	ID:1	ch 15 q 3753 busy 0 in seq 1
+00:37.865	ID:1	ch 26 q 3704 busy 0 in seq 1
+00:37.870	ID:1	ch 13 q 3445 busy 1 in seq 0
+00:37.872	ID:1	ch 16 q 3428 busy 1 in seq 0
+00:37.874	ID:1	cs: not replacing
+00:38.464	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:38.466	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:38.469	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:38.471	ID:1	ch 25 q 4096 busy 0 in seq 1
+00:38.473	ID:1	ch 19 q 4066 busy 0 in seq 0
+00:38.476	ID:1	ch 24 q 4040 busy 0 in seq 0
+00:38.478	ID:1	ch 12 q 3993 busy 0 in seq 0
+00:38.480	ID:1	ch 20 q 3991 busy 0 in seq 1
+00:38.483	ID:1	ch 18 q 3959 busy 0 in seq 0
+00:38.485	ID:1	ch 14 q 3923 busy 0 in seq 0
+00:38.487	ID:1	ch 17 q 3913 busy 0 in seq 0
+00:38.490	ID:1	ch 15 q 3795 busy 0 in seq 1
+00:38.492	ID:1	ch 26 q 3753 busy 0 in seq 1
+00:38.495	ID:1	ch 13 q 3526 busy 0 in seq 0
+00:38.499	ID:1	ch 16 q 3511 busy 0 in seq 0
+00:38.501	ID:1	ch 11 q 3358 busy 1 in seq 0
+00:38.502	ID:1	cs: not replacing
+00:39.590	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:39.592	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:39.594	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:39.597	ID:1	ch 19 q 4069 busy 0 in seq 0
+00:39.599	ID:1	ch 24 q 4053 busy 0 in seq 0
+00:39.601	ID:1	ch 12 q 4016 busy 0 in seq 0
+00:39.604	ID:1	ch 20 q 4015 busy 0 in seq 1
+00:39.606	ID:1	ch 18 q 3976 busy 0 in seq 0
+00:39.608	ID:1	ch 14 q 3944 busy 0 in seq 0
+00:39.611	ID:1	ch 17 q 3935 busy 0 in seq 0
+00:39.613	ID:1	ch 15 q 3832 busy 0 in seq 1
+00:39.615	ID:1	ch 26 q 3832 busy 0 in seq 1
+00:39.618	ID:1	ch 13 q 3597 busy 0 in seq 0
+00:39.620	ID:1	ch 16 q 3584 busy 0 in seq 0
+00:39.623	ID:1	ch 25 q 3584 busy 0 in seq 1
+00:39.628	ID:1	ch 11 q 3530 busy 0 in seq 0
+00:39.629	ID:1	cs: not replacing
+00:41.980	ID:1	ch 21 q 4096 busy 0 in seq 0
+00:41.982	ID:1	ch 22 q 4096 busy 0 in seq 0
+00:41.984	ID:1	ch 23 q 4096 busy 0 in seq 0
+00:41.987	ID:1	ch 19 q 4077 busy 0 in seq 0
+00:41.989	ID:1	ch 24 q 4066 busy 0 in seq 0
+00:41.991	ID:1	ch 20 q 4040 busy 0 in seq 1
+00:41.994	ID:1	ch 18 q 4015 busy 0 in seq 0
+00:41.996	ID:1	ch 14 q 4005 busy 0 in seq 0
+00:41.998	ID:1	ch 17 q 4000 busy 0 in seq 0
+00:42.001	ID:1	ch 13 q 3802 busy 0 in seq 0
+00:42.003	ID:1	ch 16 q 3795 busy 0 in seq 0
+00:42.005	ID:1	ch 25 q 3753 busy 0 in seq 1
+00:42.008	ID:1	ch 11 q 3716 busy 0 in seq 0
+00:42.013	ID:1	ch 12 q 3649 busy 0 in seq 0
+00:42.016	ID:1	ch 15 q 3492 busy 0 in seq 1
+00:42.018	ID:1	ch 26 q 3406 busy 1 in seq 1
+00:42.021	ID:1	cs: replacing channel 26 26 (2) with 21
+01:07.165	ID:2	[DBG : TSCH Stats] Noise RSSI:
+01:07.169	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 3487/4096 free
+01:07.174	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 4016/4096 free
+01:07.178	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 3437/4096 free
+01:07.183	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 3871/4096 free
+01:07.187	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 3577/4096 free
+01:07.195	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3929/4096 free
+01:07.200	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 4029/4096 free
+01:07.204	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 4089/4096 free
+01:07.209	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 4086/4096 free
+01:07.213	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 3889/4096 free
+01:07.217	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 4089/4096 free
+01:07.222	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3715/4096 free
+01:07.226	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 3337/4096 free
+01:07.230	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4089/4096 free
+01:07.239	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 3682/4096 free
+01:07.243	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 3750/4096 free
+01:07.246	ID:2	[DBG : TSCH Stats] Time source neighbor:
+01:07.251	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.257	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.262	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.267	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.272	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 85 lqi, 2048/4096 P(tx)
+01:07.277	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.287	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.292	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.297	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.302	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 85 lqi, 2048/4096 P(tx)
+01:07.307	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 92 lqi, 2304/4096 P(tx)
+01:07.311	ID:1	[DBG : TSCH Stats] Noise RSSI:
+01:07.312	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.315	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 4020/4096 free
+01:07.317	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.320	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 3969/4096 free
+01:07.323	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+01:07.325	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3877/4096 free
+01:07.332	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 79 lqi, 2048/4096 P(tx)
+01:07.332	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 4089/4096 free
+01:07.336	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 3734/4096 free
+01:07.337	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 92 lqi, 2048/4096 P(tx)
+01:07.341	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 4089/4096 free
+01:07.345	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 3484/4096 free
+01:07.349	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4047/4096 free
+01:07.354	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 4089/4096 free
+01:07.358	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 4080/4096 free
+01:07.363	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 3704/4096 free
+01:07.367	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 3514/4096 free
+01:07.375	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 3976/4096 free
+01:07.379	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 2906/4096 free
+01:07.384	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 4058/4096 free
+01:07.388	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3906/4096 free
+01:42.562	ID:1	ch 19 q 4089 busy 0 in seq 0
+01:42.564	ID:1	ch 21 q 4089 busy 0 in seq 1
+01:42.567	ID:1	ch 22 q 4089 busy 0 in seq 0
+01:42.569	ID:1	ch 17 q 4088 busy 0 in seq 0
+01:42.571	ID:1	ch 26 q 4033 busy 0 in seq 0
+01:42.574	ID:1	ch 13 q 4025 busy 0 in seq 0
+01:42.576	ID:1	ch 11 q 4000 busy 0 in seq 0
+01:42.578	ID:1	ch 25 q 3985 busy 0 in seq 1
+01:42.581	ID:1	ch 24 q 3936 busy 0 in seq 0
+01:42.583	ID:1	ch 20 q 3914 busy 0 in seq 1
+01:42.585	ID:1	ch 15 q 3766 busy 0 in seq 1
+01:42.588	ID:1	ch 14 q 3750 busy 0 in seq 0
+01:42.590	ID:1	ch 23 q 3697 busy 0 in seq 0
+01:42.593	ID:1	ch 18 q 3546 busy 0 in seq 0
+01:42.597	ID:1	ch 16 q 3460 busy 1 in seq 0
+01:42.599	ID:1	ch 12 q 3444 busy 1 in seq 0
+01:42.600	ID:1	cs: not replacing
+01:43.057	ID:1	ch 19 q 4089 busy 0 in seq 0
+01:43.059	ID:1	ch 21 q 4089 busy 0 in seq 1
+01:43.061	ID:1	ch 22 q 4089 busy 0 in seq 0
+01:43.064	ID:1	ch 17 q 4088 busy 0 in seq 0
+01:43.066	ID:1	ch 26 q 4040 busy 0 in seq 0
+01:43.068	ID:1	ch 13 q 4033 busy 0 in seq 0
+01:43.071	ID:1	ch 11 q 4012 busy 0 in seq 0
+01:43.073	ID:1	ch 25 q 3998 busy 0 in seq 1
+01:43.075	ID:1	ch 24 q 3956 busy 0 in seq 0
+01:43.078	ID:1	ch 20 q 3936 busy 0 in seq 1
+01:43.080	ID:1	ch 15 q 3766 busy 0 in seq 1
+01:43.082	ID:1	ch 14 q 3750 busy 0 in seq 0
+01:43.085	ID:1	ch 23 q 3746 busy 0 in seq 0
+01:43.087	ID:1	ch 18 q 3546 busy 0 in seq 0
+01:43.093	ID:1	ch 12 q 3525 busy 0 in seq 0
+01:43.095	ID:1	ch 16 q 3460 busy 1 in seq 0
+01:43.097	ID:1	cs: not replacing
+01:43.555	ID:1	ch 17 q 4089 busy 0 in seq 0
+01:43.558	ID:1	ch 19 q 4089 busy 0 in seq 0
+01:43.560	ID:1	ch 21 q 4089 busy 0 in seq 1
+01:43.562	ID:1	ch 22 q 4089 busy 0 in seq 0
+01:43.565	ID:1	ch 26 q 4040 busy 0 in seq 0
+01:43.567	ID:1	ch 13 q 4033 busy 0 in seq 0
+01:43.569	ID:1	ch 11 q 4012 busy 0 in seq 0
+01:43.572	ID:1	ch 25 q 3998 busy 0 in seq 1
+01:43.574	ID:1	ch 24 q 3973 busy 0 in seq 0
+01:43.576	ID:1	ch 20 q 3956 busy 0 in seq 1
+01:43.579	ID:1	ch 14 q 3793 busy 0 in seq 0
+01:43.581	ID:1	ch 23 q 3789 busy 0 in seq 0
+01:43.584	ID:1	ch 18 q 3614 busy 0 in seq 0
+01:43.589	ID:1	ch 16 q 3539 busy 0 in seq 0
+01:43.591	ID:1	ch 12 q 3525 busy 0 in seq 0
+01:43.594	ID:1	ch 15 q 3295 busy 1 in seq 1
+01:43.597	ID:1	cs: replacing channel 15 15 (0) with 17
+02:07.337	ID:2	[DBG : TSCH Stats] Noise RSSI:
+02:07.341	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 3666/4096 free
+02:07.346	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 3802/4096 free
+02:07.350	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 3973/4096 free
+02:07.354	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 4080/4096 free
+02:07.359	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 4089/4096 free
+02:07.363	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3854/4096 free
+02:07.368	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 4089/4096 free
+02:07.374	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 3519/4096 free
+02:07.378	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 4054/4096 free
+02:07.383	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 4031/4096 free
+02:07.387	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 3823/4096 free
+02:07.389	ID:1	[DBG : TSCH Stats] Noise RSSI:
+02:07.391	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3693/4096 free
+02:07.393	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 3914/4096 free
+02:07.396	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 3358/4096 free
+02:07.398	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 3856/4096 free
+02:07.400	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4046/4096 free
+02:07.402	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 4089/4096 free
+02:07.404	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 2990/4096 free
+02:07.407	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 3577/4096 free
+02:07.409	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4065/4096 free
+02:07.411	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 3820/4096 free
+02:07.412	ID:2	[DBG : TSCH Stats] Time source neighbor:
+02:07.419	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 3934/4096 free
+02:07.421	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.423	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 3991/4096 free
+02:07.426	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.428	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 3683/4096 free
+02:07.431	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.432	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 4022/4096 free
+02:07.436	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 3854/4096 free
+02:07.437	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.441	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 4052/4096 free
+02:07.442	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 70 lqi, 2048/4096 P(tx)
+02:07.445	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 3893/4096 free
+02:07.447	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.449	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 3988/4096 free
+02:07.452	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.454	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3581/4096 free
+02:07.458	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.462	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 4089/4096 free
+02:07.466	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3983/4096 free
+02:07.467	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.472	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 70 lqi, 2048/4096 P(tx)
+02:07.477	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 93 lqi, 2500/4096 P(tx)
+02:07.482	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.487	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.492	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+02:07.497	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 59 lqi, 2048/4096 P(tx)
+02:07.503	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 93 lqi, 2048/4096 P(tx)
+02:43.507	ID:1	ch 11 q 4089 busy 0 in seq 0
+02:43.509	ID:1	ch 18 q 4088 busy 0 in seq 0
+02:43.512	ID:1	ch 22 q 4078 busy 0 in seq 0
+02:43.514	ID:1	ch 24 q 4078 busy 0 in seq 0
+02:43.516	ID:1	ch 17 q 4076 busy 0 in seq 1
+02:43.519	ID:1	ch 13 q 4057 busy 0 in seq 0
+02:43.521	ID:1	ch 15 q 4050 busy 0 in seq 0
+02:43.523	ID:1	ch 20 q 4050 busy 0 in seq 1
+02:43.526	ID:1	ch 23 q 3988 busy 0 in seq 0
+02:43.528	ID:1	ch 25 q 3889 busy 0 in seq 1
+02:43.530	ID:1	ch 12 q 3789 busy 0 in seq 0
+02:43.533	ID:1	ch 16 q 3633 busy 0 in seq 0
+02:43.535	ID:1	ch 19 q 3624 busy 0 in seq 0
+02:43.538	ID:1	ch 26 q 3531 busy 0 in seq 0
+02:43.543	ID:1	ch 14 q 3500 busy 0 in seq 0
+02:43.546	ID:1	ch 21 q 3342 busy 1 in seq 1
+02:43.549	ID:1	cs: replacing channel 21 21 (2) with 11
+03:07.467	ID:1	[DBG : TSCH Stats] Noise RSSI:
+03:07.472	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 3887/4096 free
+03:07.476	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 3382/4096 free
+03:07.480	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 4089/4096 free
+03:07.485	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 3822/4096 free
+03:07.489	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 4089/4096 free
+03:07.493	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 3688/4096 free
+03:07.498	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 4089/4096 free
+03:07.502	ID:2	[DBG : TSCH Stats] Noise RSSI:
+03:07.506	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 3935/4096 free
+03:07.509	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4089/4096 free
+03:07.510	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 4077/4096 free
+03:07.513	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 3630/4096 free
+03:07.514	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 4089/4096 free
+03:07.518	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 4089/4096 free
+03:07.519	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 3290/4096 free
+03:07.522	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 3779/4096 free
+03:07.523	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 4089/4096 free
+03:07.526	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 4078/4096 free
+03:07.528	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 3959/4096 free
+03:07.531	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3914/4096 free
+03:07.532	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3789/4096 free
+03:07.535	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 3800/4096 free
+03:07.536	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 3658/4096 free
+03:07.539	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 4089/4096 free
+03:07.541	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3573/4096 free
+03:07.544	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 3743/4096 free
+03:07.554	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 3354/4096 free
+03:07.558	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 3882/4096 free
+03:07.563	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3295/4096 free
+03:07.567	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 3973/4096 free
+03:07.571	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4079/4096 free
+03:07.576	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 4089/4096 free
+03:07.580	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4012/4096 free
+03:07.583	ID:2	[DBG : TSCH Stats] Time source neighbor:
+03:07.588	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 85 lqi, 2048/4096 P(tx)
+03:07.597	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.602	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.608	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.613	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 74 lqi, 2048/4096 P(tx)
+03:07.618	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.623	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 65 lqi, 2048/4096 P(tx)
+03:07.628	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.633	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.642	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 61 lqi, 2048/4096 P(tx)
+03:07.647	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 86 lqi, 2443/4096 P(tx)
+03:07.652	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.657	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.663	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+03:07.668	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 51 lqi, 2048/4096 P(tx)
+03:07.673	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 93 lqi, 2048/4096 P(tx)
+03:43.462	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:43.465	ID:1	ch 15 q 4089 busy 0 in seq 0
+03:43.467	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:43.469	ID:1	ch 18 q 4089 busy 0 in seq 0
+03:43.472	ID:1	ch 20 q 4089 busy 0 in seq 1
+03:43.474	ID:1	ch 13 q 4076 busy 0 in seq 0
+03:43.476	ID:1	ch 25 q 4004 busy 0 in seq 1
+03:43.479	ID:1	ch 12 q 3988 busy 0 in seq 0
+03:43.481	ID:1	ch 24 q 3929 busy 0 in seq 0
+03:43.483	ID:1	ch 11 q 3889 busy 0 in seq 1
+03:43.486	ID:1	ch 23 q 3822 busy 0 in seq 0
+03:43.488	ID:1	ch 26 q 3725 busy 0 in seq 0
+03:43.491	ID:1	ch 16 q 3697 busy 0 in seq 0
+03:43.496	ID:1	ch 19 q 3641 busy 0 in seq 0
+03:43.498	ID:1	ch 22 q 3357 busy 1 in seq 0
+03:43.501	ID:1	ch 21 q 3344 busy 1 in seq 0
+03:43.502	ID:1	cs: not replacing
+03:44.856	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:44.859	ID:1	ch 15 q 4089 busy 0 in seq 0
+03:44.861	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:44.863	ID:1	ch 18 q 4089 busy 0 in seq 0
+03:44.866	ID:1	ch 13 q 4080 busy 0 in seq 0
+03:44.868	ID:1	ch 25 q 4025 busy 0 in seq 1
+03:44.870	ID:1	ch 12 q 4012 busy 0 in seq 0
+03:44.873	ID:1	ch 24 q 3967 busy 0 in seq 0
+03:44.875	ID:1	ch 11 q 3936 busy 0 in seq 1
+03:44.877	ID:1	ch 23 q 3886 busy 0 in seq 0
+03:44.880	ID:1	ch 26 q 3811 busy 0 in seq 0
+03:44.882	ID:1	ch 16 q 3789 busy 0 in seq 0
+03:44.884	ID:1	ch 19 q 3746 busy 0 in seq 0
+03:44.887	ID:1	ch 20 q 3577 busy 0 in seq 1
+03:44.891	ID:1	ch 22 q 3529 busy 0 in seq 0
+03:44.893	ID:1	ch 21 q 3520 busy 0 in seq 0
+03:44.895	ID:1	cs: not replacing
+03:46.703	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:46.705	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:46.707	ID:1	ch 13 q 4083 busy 0 in seq 0
+03:46.710	ID:1	ch 25 q 4040 busy 0 in seq 1
+03:46.712	ID:1	ch 12 q 4031 busy 0 in seq 0
+03:46.714	ID:1	ch 24 q 3997 busy 0 in seq 0
+03:46.717	ID:1	ch 11 q 3973 busy 0 in seq 1
+03:46.719	ID:1	ch 23 q 3935 busy 0 in seq 0
+03:46.721	ID:1	ch 16 q 3889 busy 0 in seq 0
+03:46.724	ID:1	ch 26 q 3877 busy 0 in seq 0
+03:46.726	ID:1	ch 19 q 3860 busy 0 in seq 0
+03:46.728	ID:1	ch 20 q 3746 busy 0 in seq 1
+03:46.730	ID:1	ch 22 q 3715 busy 0 in seq 0
+03:46.733	ID:1	ch 15 q 3697 busy 0 in seq 0
+03:46.739	ID:1	ch 18 q 3641 busy 0 in seq 0
+03:46.741	ID:1	ch 21 q 3198 busy 1 in seq 0
+03:46.742	ID:1	cs: not replacing
+03:48.009	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:48.011	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:48.014	ID:1	ch 13 q 4085 busy 0 in seq 0
+03:48.016	ID:1	ch 25 q 4053 busy 0 in seq 1
+03:48.018	ID:1	ch 12 q 4046 busy 0 in seq 0
+03:48.021	ID:1	ch 24 q 4019 busy 0 in seq 0
+03:48.023	ID:1	ch 11 q 4001 busy 0 in seq 1
+03:48.025	ID:1	ch 23 q 3972 busy 0 in seq 0
+03:48.027	ID:1	ch 26 q 3928 busy 0 in seq 0
+03:48.030	ID:1	ch 15 q 3789 busy 0 in seq 0
+03:48.032	ID:1	ch 20 q 3789 busy 0 in seq 1
+03:48.034	ID:1	ch 22 q 3762 busy 0 in seq 0
+03:48.037	ID:1	ch 18 q 3746 busy 0 in seq 0
+03:48.039	ID:1	ch 16 q 3488 busy 0 in seq 0
+03:48.043	ID:1	ch 19 q 3402 busy 1 in seq 0
+03:48.046	ID:1	ch 21 q 3310 busy 1 in seq 0
+03:48.047	ID:1	cs: not replacing
+03:48.778	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:48.780	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:48.782	ID:1	ch 13 q 4086 busy 0 in seq 0
+03:48.785	ID:1	ch 25 q 4058 busy 0 in seq 1
+03:48.787	ID:1	ch 12 q 4052 busy 0 in seq 0
+03:48.789	ID:1	ch 24 q 4028 busy 0 in seq 0
+03:48.792	ID:1	ch 11 q 4012 busy 0 in seq 1
+03:48.794	ID:1	ch 23 q 3987 busy 0 in seq 0
+03:48.796	ID:1	ch 26 q 3949 busy 0 in seq 0
+03:48.799	ID:1	ch 20 q 3860 busy 0 in seq 1
+03:48.801	ID:1	ch 15 q 3827 busy 0 in seq 0
+03:48.803	ID:1	ch 22 q 3803 busy 0 in seq 0
+03:48.806	ID:1	ch 18 q 3789 busy 0 in seq 0
+03:48.810	ID:1	ch 16 q 3564 busy 0 in seq 0
+03:48.812	ID:1	ch 19 q 3488 busy 0 in seq 0
+03:48.815	ID:1	ch 21 q 3408 busy 1 in seq 0
+03:48.816	ID:1	cs: not replacing
+03:48.826	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:48.829	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:48.831	ID:1	ch 13 q 4086 busy 0 in seq 0
+03:48.833	ID:1	ch 25 q 4058 busy 0 in seq 1
+03:48.836	ID:1	ch 12 q 4052 busy 0 in seq 0
+03:48.838	ID:1	ch 24 q 4028 busy 0 in seq 0
+03:48.840	ID:1	ch 11 q 4012 busy 0 in seq 1
+03:48.843	ID:1	ch 23 q 3987 busy 0 in seq 0
+03:48.845	ID:1	ch 26 q 3949 busy 0 in seq 0
+03:48.847	ID:1	ch 20 q 3860 busy 0 in seq 1
+03:48.850	ID:1	ch 15 q 3827 busy 0 in seq 0
+03:48.856	ID:1	ch 22 q 3803 busy 0 in seq 0
+03:48.859	ID:1	ch 18 q 3789 busy 0 in seq 0
+03:48.861	ID:1	ch 16 q 3564 busy 0 in seq 0
+03:48.863	ID:1	ch 21 q 3494 busy 0 in seq 0
+03:48.866	ID:1	ch 19 q 3488 busy 0 in seq 0
+03:48.867	ID:1	cs: not replacing
+03:50.266	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:50.268	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:50.271	ID:1	ch 13 q 4088 busy 0 in seq 0
+03:50.273	ID:1	ch 25 q 4066 busy 0 in seq 1
+03:50.275	ID:1	ch 24 q 4043 busy 0 in seq 0
+03:50.278	ID:1	ch 11 q 4031 busy 0 in seq 1
+03:50.280	ID:1	ch 26 q 3983 busy 0 in seq 0
+03:50.282	ID:1	ch 20 q 3914 busy 0 in seq 1
+03:50.285	ID:1	ch 15 q 3889 busy 0 in seq 0
+03:50.287	ID:1	ch 22 q 3871 busy 0 in seq 0
+03:50.289	ID:1	ch 18 q 3860 busy 0 in seq 0
+03:50.292	ID:1	ch 16 q 3688 busy 0 in seq 0
+03:50.297	ID:1	ch 19 q 3630 busy 0 in seq 0
+03:50.300	ID:1	ch 12 q 3549 busy 0 in seq 0
+03:50.302	ID:1	ch 23 q 3500 busy 0 in seq 0
+03:50.304	ID:1	ch 21 q 3186 busy 1 in seq 0
+03:50.306	ID:1	cs: not replacing
+03:52.063	ID:1	ch 13 q 4089 busy 0 in seq 0
+03:52.065	ID:1	ch 14 q 4089 busy 0 in seq 0
+03:52.068	ID:1	ch 17 q 4089 busy 0 in seq 1
+03:52.070	ID:1	ch 25 q 4075 busy 0 in seq 1
+03:52.072	ID:1	ch 24 q 4059 busy 0 in seq 0
+03:52.075	ID:1	ch 11 q 4052 busy 0 in seq 1
+03:52.077	ID:1	ch 26 q 4019 busy 0 in seq 0
+03:52.079	ID:1	ch 22 q 3944 busy 0 in seq 0
+03:52.082	ID:1	ch 15 q 3936 busy 0 in seq 0
+03:52.084	ID:1	ch 18 q 3914 busy 0 in seq 0
+03:52.086	ID:1	ch 16 q 3783 busy 0 in seq 0
+03:52.089	ID:1	ch 19 q 3739 busy 0 in seq 0
+03:52.091	ID:1	ch 12 q 3728 busy 0 in seq 0
+03:52.094	ID:1	ch 23 q 3696 busy 0 in seq 0
+03:52.098	ID:1	ch 20 q 3444 busy 1 in seq 1
+03:52.100	ID:1	ch 21 q 3398 busy 1 in seq 0
+03:52.103	ID:1	cs: replacing channel 20 20 (3) with 13
+04:07.538	ID:1	[DBG : TSCH Stats] Noise RSSI:
+04:07.542	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 3889/4096 free
+04:07.549	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 4070/4096 free
+04:07.553	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3641/4096 free
+04:07.558	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 3860/4096 free
+04:07.562	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 3567/4096 free
+04:07.567	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 3234/4096 free
+04:07.571	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 4046/4096 free
+04:07.575	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 3965/4096 free
+04:07.580	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 4074/4096 free
+04:07.584	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 3968/4096 free
+04:07.589	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 3921/4096 free
+04:07.596	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 4015/4096 free
+04:07.601	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 4028/4096 free
+04:07.605	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 4089/4096 free
+04:07.609	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 4052/4096 free
+04:07.614	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3696/4096 free
+04:07.673	ID:2	[DBG : TSCH Stats] Noise RSSI:
+04:07.677	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4089/4096 free
+04:07.685	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 4089/4096 free
+04:07.690	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 3827/4096 free
+04:07.694	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 3680/4096 free
+04:07.698	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 4089/4096 free
+04:07.703	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3771/4096 free
+04:07.707	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 3641/4096 free
+04:07.711	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 3793/4096 free
+04:07.716	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 3597/4096 free
+04:07.720	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 3886/4096 free
+04:07.725	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 3893/4096 free
+04:07.732	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3947/4096 free
+04:07.737	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 4076/4096 free
+04:07.741	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 3947/4096 free
+04:07.745	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 4083/4096 free
+04:07.750	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4089/4096 free
+04:07.753	ID:2	[DBG : TSCH Stats] Time source neighbor:
+04:07.758	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 70 lqi, 2048/4096 P(tx)
+04:07.763	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.768	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.776	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.781	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 77 lqi, 2048/4096 P(tx)
+04:07.787	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.792	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 55 lqi, 2048/4096 P(tx)
+04:07.797	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.802	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.807	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 54 lqi, 2048/4096 P(tx)
+04:07.812	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 88 lqi, 2393/4096 P(tx)
+04:07.821	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.826	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.831	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+04:07.836	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 47 lqi, 2048/4096 P(tx)
+04:07.842	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 94 lqi, 2048/4096 P(tx)
+04:51.661	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:51.663	ID:1	ch 23 q 4089 busy 0 in seq 0
+04:51.666	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:51.668	ID:1	ch 20 q 4075 busy 0 in seq 0
+04:51.670	ID:1	ch 24 q 4065 busy 0 in seq 0
+04:51.673	ID:1	ch 17 q 4052 busy 0 in seq 1
+04:51.675	ID:1	ch 26 q 4031 busy 0 in seq 0
+04:51.677	ID:1	ch 21 q 4001 busy 0 in seq 0
+04:51.680	ID:1	ch 14 q 4000 busy 0 in seq 0
+04:51.682	ID:1	ch 11 q 3991 busy 0 in seq 1
+04:51.684	ID:1	ch 18 q 3925 busy 0 in seq 0
+04:51.687	ID:1	ch 15 q 3886 busy 0 in seq 0
+04:51.692	ID:1	ch 13 q 3760 busy 0 in seq 1
+04:51.695	ID:1	ch 12 q 3710 busy 0 in seq 0
+04:51.697	ID:1	ch 22 q 3543 busy 0 in seq 0
+04:51.699	ID:1	ch 19 q 3329 busy 1 in seq 0
+04:51.701	ID:1	cs: not replacing
+04:53.153	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:53.155	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:53.158	ID:1	ch 24 q 4071 busy 0 in seq 0
+04:53.160	ID:1	ch 17 q 4061 busy 0 in seq 1
+04:53.162	ID:1	ch 26 q 4046 busy 0 in seq 0
+04:53.165	ID:1	ch 14 q 4022 busy 0 in seq 0
+04:53.167	ID:1	ch 21 q 4022 busy 0 in seq 0
+04:53.169	ID:1	ch 11 q 4015 busy 0 in seq 1
+04:53.172	ID:1	ch 18 q 3964 busy 0 in seq 0
+04:53.175	ID:1	ch 15 q 3935 busy 0 in seq 0
+04:53.180	ID:1	ch 13 q 3838 busy 0 in seq 1
+04:53.182	ID:1	ch 12 q 3800 busy 0 in seq 0
+04:53.184	ID:1	ch 22 q 3672 busy 0 in seq 0
+04:53.187	ID:1	ch 20 q 3631 busy 0 in seq 0
+04:53.189	ID:1	ch 23 q 3577 busy 0 in seq 0
+04:53.191	ID:1	ch 19 q 3508 busy 0 in seq 0
+04:53.193	ID:1	cs: not replacing
+04:53.593	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:53.595	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:53.598	ID:1	ch 24 q 4071 busy 0 in seq 0
+04:53.600	ID:1	ch 17 q 4065 busy 0 in seq 1
+04:53.602	ID:1	ch 26 q 4052 busy 0 in seq 0
+04:53.605	ID:1	ch 14 q 4031 busy 0 in seq 0
+04:53.607	ID:1	ch 11 q 4025 busy 0 in seq 1
+04:53.609	ID:1	ch 21 q 4022 busy 0 in seq 0
+04:53.612	ID:1	ch 15 q 3955 busy 0 in seq 0
+04:53.614	ID:1	ch 13 q 3870 busy 0 in seq 1
+04:53.616	ID:1	ch 12 q 3837 busy 0 in seq 0
+04:53.619	ID:1	ch 22 q 3672 busy 0 in seq 0
+04:53.621	ID:1	ch 20 q 3631 busy 0 in seq 0
+04:53.624	ID:1	ch 19 q 3581 busy 0 in seq 0
+04:53.628	ID:1	ch 23 q 3577 busy 0 in seq 0
+04:53.630	ID:1	ch 18 q 3468 busy 1 in seq 0
+04:53.631	ID:1	cs: not replacing
+04:54.360	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:54.362	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:54.364	ID:1	ch 24 q 4074 busy 0 in seq 0
+04:54.367	ID:1	ch 17 q 4068 busy 0 in seq 1
+04:54.369	ID:1	ch 26 q 4057 busy 0 in seq 0
+04:54.371	ID:1	ch 14 q 4039 busy 0 in seq 0
+04:54.374	ID:1	ch 11 q 4033 busy 0 in seq 1
+04:54.376	ID:1	ch 21 q 4031 busy 0 in seq 0
+04:54.378	ID:1	ch 15 q 3972 busy 0 in seq 0
+04:54.381	ID:1	ch 13 q 3898 busy 0 in seq 1
+04:54.383	ID:1	ch 12 q 3869 busy 0 in seq 0
+04:54.385	ID:1	ch 20 q 3739 busy 0 in seq 0
+04:54.388	ID:1	ch 22 q 3725 busy 0 in seq 0
+04:54.391	ID:1	ch 19 q 3645 busy 0 in seq 0
+04:54.396	ID:1	ch 23 q 3641 busy 0 in seq 0
+04:54.398	ID:1	ch 18 q 3546 busy 0 in seq 0
+04:54.399	ID:1	cs: not replacing
+04:56.611	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:56.613	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:56.615	ID:1	ch 17 q 4076 busy 0 in seq 1
+04:56.618	ID:1	ch 26 q 4068 busy 0 in seq 0
+04:56.620	ID:1	ch 14 q 4057 busy 0 in seq 0
+04:56.622	ID:1	ch 11 q 4053 busy 0 in seq 1
+04:56.625	ID:1	ch 15 q 4012 busy 0 in seq 0
+04:56.627	ID:1	ch 13 q 3962 busy 0 in seq 1
+04:56.629	ID:1	ch 12 q 3942 busy 0 in seq 0
+04:56.631	ID:1	ch 20 q 3856 busy 0 in seq 0
+04:56.634	ID:1	ch 19 q 3793 busy 0 in seq 0
+04:56.636	ID:1	ch 23 q 3789 busy 0 in seq 0
+04:56.638	ID:1	ch 18 q 3726 busy 0 in seq 0
+04:56.641	ID:1	ch 21 q 3714 busy 0 in seq 0
+04:56.644	ID:1	ch 24 q 3632 busy 0 in seq 0
+04:56.649	ID:1	ch 22 q 3365 busy 1 in seq 0
+04:56.650	ID:1	cs: not replacing
+04:58.368	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:58.370	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:58.372	ID:1	ch 26 q 4076 busy 0 in seq 0
+04:58.375	ID:1	ch 11 q 4066 busy 0 in seq 1
+04:58.377	ID:1	ch 14 q 4065 busy 0 in seq 0
+04:58.379	ID:1	ch 15 q 4031 busy 0 in seq 0
+04:58.382	ID:1	ch 13 q 4005 busy 0 in seq 1
+04:58.384	ID:1	ch 12 q 3991 busy 0 in seq 0
+04:58.386	ID:1	ch 23 q 3889 busy 0 in seq 0
+04:58.389	ID:1	ch 19 q 3863 busy 0 in seq 0
+04:58.391	ID:1	ch 18 q 3812 busy 0 in seq 0
+04:58.393	ID:1	ch 21 q 3802 busy 0 in seq 0
+04:58.396	ID:1	ch 24 q 3784 busy 0 in seq 0
+04:58.399	ID:1	ch 17 q 3632 busy 0 in seq 1
+04:58.404	ID:1	ch 22 q 3536 busy 0 in seq 0
+04:58.406	ID:1	ch 20 q 3400 busy 1 in seq 0
+04:58.407	ID:1	cs: not replacing
+04:59.273	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:59.276	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:59.278	ID:1	ch 26 q 4078 busy 0 in seq 0
+04:59.280	ID:1	ch 14 q 4071 busy 0 in seq 0
+04:59.283	ID:1	ch 11 q 4069 busy 0 in seq 1
+04:59.285	ID:1	ch 15 q 4046 busy 0 in seq 0
+04:59.287	ID:1	ch 13 q 4016 busy 0 in seq 1
+04:59.290	ID:1	ch 12 q 4004 busy 0 in seq 0
+04:59.292	ID:1	ch 19 q 3892 busy 0 in seq 0
+04:59.294	ID:1	ch 18 q 3847 busy 0 in seq 0
+04:59.297	ID:1	ch 21 q 3838 busy 0 in seq 0
+04:59.300	ID:1	ch 24 q 3823 busy 0 in seq 0
+04:59.305	ID:1	ch 17 q 3740 busy 0 in seq 1
+04:59.307	ID:1	ch 22 q 3606 busy 0 in seq 0
+04:59.309	ID:1	ch 20 q 3487 busy 0 in seq 0
+04:59.312	ID:1	ch 23 q 3402 busy 1 in seq 0
+04:59.313	ID:1	cs: not replacing
+04:59.358	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:59.361	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:59.363	ID:1	ch 26 q 4078 busy 0 in seq 0
+04:59.365	ID:1	ch 14 q 4071 busy 0 in seq 0
+04:59.368	ID:1	ch 11 q 4069 busy 0 in seq 1
+04:59.370	ID:1	ch 15 q 4046 busy 0 in seq 0
+04:59.372	ID:1	ch 13 q 4016 busy 0 in seq 1
+04:59.375	ID:1	ch 12 q 4004 busy 0 in seq 0
+04:59.377	ID:1	ch 19 q 3917 busy 0 in seq 0
+04:59.379	ID:1	ch 21 q 3838 busy 0 in seq 0
+04:59.382	ID:1	ch 24 q 3823 busy 0 in seq 0
+04:59.384	ID:1	ch 17 q 3740 busy 0 in seq 1
+04:59.386	ID:1	ch 22 q 3606 busy 0 in seq 0
+04:59.389	ID:1	ch 20 q 3487 busy 0 in seq 0
+04:59.394	ID:1	ch 23 q 3402 busy 1 in seq 0
+04:59.397	ID:1	ch 18 q 3366 busy 1 in seq 0
+04:59.398	ID:1	cs: not replacing
+04:59.989	ID:1	ch 16 q 4089 busy 0 in seq 0
+04:59.991	ID:1	ch 25 q 4089 busy 0 in seq 1
+04:59.994	ID:1	ch 26 q 4080 busy 0 in seq 0
+04:59.996	ID:1	ch 14 q 4074 busy 0 in seq 0
+04:59.998	ID:1	ch 11 q 4072 busy 0 in seq 1
+05:00.001	ID:1	ch 15 q 4052 busy 0 in seq 0
+05:00.003	ID:1	ch 13 q 4026 busy 0 in seq 1
+05:00.005	ID:1	ch 12 q 4015 busy 0 in seq 0
+05:00.008	ID:1	ch 19 q 3917 busy 0 in seq 0
+05:00.010	ID:1	ch 21 q 3870 busy 0 in seq 0
+05:00.012	ID:1	ch 24 q 3857 busy 0 in seq 0
+05:00.014	ID:1	ch 17 q 3784 busy 0 in seq 1
+05:00.017	ID:1	ch 22 q 3667 busy 0 in seq 0
+05:00.019	ID:1	ch 20 q 3563 busy 0 in seq 0
+05:00.025	ID:1	ch 23 q 3488 busy 0 in seq 0
+05:00.027	ID:1	ch 18 q 3366 busy 1 in seq 0
+05:00.029	ID:1	cs: not replacing
+05:00.169	ID:1	ch 16 q 4089 busy 0 in seq 0
+05:00.171	ID:1	ch 25 q 4089 busy 0 in seq 1
+05:00.174	ID:1	ch 26 q 4080 busy 0 in seq 0
+05:00.176	ID:1	ch 14 q 4074 busy 0 in seq 0
+05:00.178	ID:1	ch 11 q 4072 busy 0 in seq 1
+05:00.181	ID:1	ch 15 q 4052 busy 0 in seq 0
+05:00.183	ID:1	ch 13 q 4026 busy 0 in seq 1
+05:00.185	ID:1	ch 12 q 4015 busy 0 in seq 0
+05:00.188	ID:1	ch 19 q 3939 busy 0 in seq 0
+05:00.190	ID:1	ch 24 q 3857 busy 0 in seq 0
+05:00.192	ID:1	ch 17 q 3784 busy 0 in seq 1
+05:00.195	ID:1	ch 22 q 3667 busy 0 in seq 0
+05:00.197	ID:1	ch 20 q 3629 busy 0 in seq 0
+05:00.199	ID:1	ch 23 q 3488 busy 0 in seq 0
+05:00.204	ID:1	ch 18 q 3457 busy 1 in seq 0
+05:00.206	ID:1	ch 21 q 3386 busy 1 in seq 0
+05:00.207	ID:1	cs: not replacing
+05:01.180	ID:1	ch 16 q 4089 busy 0 in seq 0
+05:01.183	ID:1	ch 25 q 4089 busy 0 in seq 1
+05:01.185	ID:1	ch 26 q 4083 busy 0 in seq 0
+05:01.187	ID:1	ch 11 q 4077 busy 0 in seq 1
+05:01.190	ID:1	ch 14 q 4076 busy 0 in seq 0
+05:01.193	ID:1	ch 15 q 4057 busy 0 in seq 0
+05:01.198	ID:1	ch 13 q 4034 busy 0 in seq 1
+05:01.200	ID:1	ch 12 q 4025 busy 0 in seq 0
+05:01.202	ID:1	ch 19 q 3958 busy 0 in seq 0
+05:01.205	ID:1	ch 24 q 3912 busy 0 in seq 0
+05:01.207	ID:1	ch 17 q 3823 busy 0 in seq 1
+05:01.209	ID:1	ch 22 q 3767 busy 0 in seq 0
+05:01.212	ID:1	ch 20 q 3687 busy 0 in seq 0
+05:01.214	ID:1	ch 23 q 3630 busy 0 in seq 0
+05:01.216	ID:1	ch 18 q 3536 busy 0 in seq 0
+05:01.219	ID:1	ch 21 q 3474 busy 1 in seq 0
+05:01.220	ID:1	cs: not replacing
+05:01.613	ID:1	ch 25 q 4089 busy 0 in seq 1
+05:01.615	ID:1	ch 26 q 4083 busy 0 in seq 0
+05:01.617	ID:1	ch 14 q 4078 busy 0 in seq 0
+05:01.620	ID:1	ch 11 q 4077 busy 0 in seq 1
+05:01.622	ID:1	ch 15 q 4061 busy 0 in seq 0
+05:01.624	ID:1	ch 13 q 4041 busy 0 in seq 1
+05:01.627	ID:1	ch 12 q 4033 busy 0 in seq 0
+05:01.629	ID:1	ch 19 q 3975 busy 0 in seq 0
+05:01.631	ID:1	ch 24 q 3912 busy 0 in seq 0
+05:01.634	ID:1	ch 17 q 3857 busy 0 in seq 1
+05:01.636	ID:1	ch 22 q 3767 busy 0 in seq 0
+05:01.638	ID:1	ch 20 q 3738 busy 0 in seq 0
+05:01.641	ID:1	ch 23 q 3630 busy 0 in seq 0
+05:01.644	ID:1	ch 18 q 3606 busy 0 in seq 0
+05:01.649	ID:1	ch 16 q 3577 busy 0 in seq 0
+05:01.651	ID:1	ch 21 q 3551 busy 0 in seq 0
+05:01.652	ID:1	cs: not replacing
+05:02.466	ID:1	ch 25 q 4089 busy 0 in seq 1
+05:02.469	ID:1	ch 26 q 4084 busy 0 in seq 0
+05:02.471	ID:1	ch 14 q 4080 busy 0 in seq 0
+05:02.473	ID:1	ch 11 q 4079 busy 0 in seq 1
+05:02.476	ID:1	ch 15 q 4065 busy 0 in seq 0
+05:02.478	ID:1	ch 13 q 4047 busy 0 in seq 1
+05:02.480	ID:1	ch 12 q 4040 busy 0 in seq 0
+05:02.483	ID:1	ch 24 q 3955 busy 0 in seq 0
+05:02.485	ID:1	ch 17 q 3886 busy 0 in seq 1
+05:02.487	ID:1	ch 22 q 3844 busy 0 in seq 0
+05:02.490	ID:1	ch 20 q 3782 busy 0 in seq 0
+05:02.492	ID:1	ch 23 q 3739 busy 0 in seq 0
+05:02.494	ID:1	ch 18 q 3667 busy 0 in seq 0
+05:02.497	ID:1	ch 16 q 3641 busy 0 in seq 0
+05:02.502	ID:1	ch 21 q 3619 busy 0 in seq 0
+05:02.505	ID:1	ch 19 q 3478 busy 1 in seq 0
+05:02.506	ID:1	cs: not replacing
+05:03.232	ID:1	ch 25 q 4089 busy 0 in seq 1
+05:03.234	ID:1	ch 26 q 4085 busy 0 in seq 0
+05:03.237	ID:1	ch 14 q 4082 busy 0 in seq 0
+05:03.239	ID:1	ch 11 q 4081 busy 0 in seq 1
+05:03.241	ID:1	ch 15 q 4068 busy 0 in seq 0
+05:03.244	ID:1	ch 13 q 4053 busy 0 in seq 1
+05:03.246	ID:1	ch 12 q 4047 busy 0 in seq 0
+05:03.248	ID:1	ch 24 q 3972 busy 0 in seq 0
+05:03.251	ID:1	ch 17 q 3912 busy 0 in seq 1
+05:03.253	ID:1	ch 22 q 3875 busy 0 in seq 0
+05:03.255	ID:1	ch 20 q 3821 busy 0 in seq 0
+05:03.258	ID:1	ch 23 q 3783 busy 0 in seq 0
+05:03.260	ID:1	ch 18 q 3720 busy 0 in seq 0
+05:03.262	ID:1	ch 16 q 3697 busy 0 in seq 0
+05:03.268	ID:1	ch 21 q 3678 busy 0 in seq 0
+05:03.271	ID:1	ch 19 q 3555 busy 0 in seq 0
+05:03.272	ID:1	cs: not replacing
+05:03.592	ID:1	ch 25 q 4089 busy 0 in seq 1
+05:03.595	ID:1	ch 26 q 4086 busy 0 in seq 0
+05:03.597	ID:1	ch 14 q 4083 busy 0 in seq 0
+05:03.599	ID:1	ch 11 q 4082 busy 0 in seq 1
+05:03.602	ID:1	ch 15 q 4071 busy 0 in seq 0
+05:03.604	ID:1	ch 13 q 4058 busy 0 in seq 1
+05:03.606	ID:1	ch 12 q 4053 busy 0 in seq 0
+05:03.609	ID:1	ch 24 q 3972 busy 0 in seq 0
+05:03.611	ID:1	ch 22 q 3875 busy 0 in seq 0
+05:03.613	ID:1	ch 20 q 3821 busy 0 in seq 0
+05:03.616	ID:1	ch 23 q 3783 busy 0 in seq 0
+05:03.618	ID:1	ch 16 q 3746 busy 0 in seq 0
+05:03.620	ID:1	ch 18 q 3720 busy 0 in seq 0
+05:03.623	ID:1	ch 21 q 3678 busy 0 in seq 0
+05:03.629	ID:1	ch 19 q 3555 busy 0 in seq 0
+05:03.631	ID:1	ch 17 q 3423 busy 1 in seq 1
+05:03.639	ID:1	cs: replacing channel 17 17 (0) with 14
+05:07.616	ID:1	[DBG : TSCH Stats] Noise RSSI:
+05:07.620	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 4087/4096 free
+05:07.624	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 3772/4096 free
+05:07.629	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3627/4096 free
+05:07.634	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 4088/4096 free
+05:07.640	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 3739/4096 free
+05:07.644	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 3914/4096 free
+05:07.648	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 3749/4096 free
+05:07.653	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 3534/4096 free
+05:07.657	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 3851/4096 free
+05:07.661	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 3971/4096 free
+05:07.666	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 3907/4096 free
+05:07.670	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 3995/4096 free
+05:07.675	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 3955/4096 free
+05:07.682	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 4039/4096 free
+05:07.687	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 4089/4096 free
+05:07.691	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 4089/4096 free
+05:07.837	ID:2	[DBG : TSCH Stats] Noise RSSI:
+05:07.841	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4031/4096 free
+05:07.846	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 4089/4096 free
+05:07.850	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 4087/4096 free
+05:07.854	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 4089/4096 free
+05:07.860	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 3889/4096 free
+05:07.867	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3768/4096 free
+05:07.871	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 4089/4096 free
+05:07.875	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 3858/4096 free
+05:07.880	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 3733/4096 free
+05:07.884	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 3423/4096 free
+05:07.889	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 3718/4096 free
+05:07.893	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 4041/4096 free
+05:07.897	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 4016/4096 free
+05:07.902	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 3959/4096 free
+05:07.910	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 3949/4096 free
+05:07.914	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4000/4096 free
+05:07.917	ID:2	[DBG : TSCH Stats] Time source neighbor:
+05:07.922	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 53 lqi, 2048/4096 P(tx)
+05:07.927	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:07.932	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 73 lqi, 2048/4096 P(tx)
+05:07.937	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:07.942	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 80 lqi, 2048/4096 P(tx)
+05:07.948	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:07.956	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 53 lqi, 2048/4096 P(tx)
+05:07.961	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:07.967	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:07.972	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 59 lqi, 2048/4096 P(tx)
+05:07.977	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 89 lqi, 2349/4096 P(tx)
+05:07.982	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:07.987	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:07.993	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+05:08.001	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 48 lqi, 2048/4096 P(tx)
+05:08.006	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 95 lqi, 2048/4096 P(tx)
+06:03.546	ID:1	ch 23 q 4085 busy 0 in seq 0
+06:03.548	ID:1	ch 25 q 4085 busy 0 in seq 1
+06:03.551	ID:1	ch 26 q 4084 busy 0 in seq 0
+06:03.553	ID:1	ch 21 q 4081 busy 0 in seq 0
+06:03.555	ID:1	ch 17 q 4054 busy 0 in seq 0
+06:03.558	ID:1	ch 24 q 4019 busy 0 in seq 0
+06:03.560	ID:1	ch 22 q 4012 busy 0 in seq 0
+06:03.562	ID:1	ch 11 q 3998 busy 0 in seq 1
+06:03.565	ID:1	ch 20 q 3950 busy 0 in seq 0
+06:03.567	ID:1	ch 18 q 3936 busy 0 in seq 0
+06:03.569	ID:1	ch 16 q 3907 busy 0 in seq 0
+06:03.572	ID:1	ch 19 q 3881 busy 0 in seq 0
+06:03.574	ID:1	ch 14 q 3860 busy 0 in seq 1
+06:03.576	ID:1	ch 12 q 3762 busy 0 in seq 0
+06:03.582	ID:1	ch 13 q 3424 busy 1 in seq 1
+06:03.584	ID:1	ch 15 q 3322 busy 1 in seq 0
+06:03.588	ID:1	cs: replacing channel 13 13 (3) with 23
+06:07.690	ID:1	[DBG : TSCH Stats] Noise RSSI:
+06:07.695	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 3750/4096 free
+06:07.699	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 3944/4096 free
+06:07.703	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3793/4096 free
+06:07.708	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 3645/4096 free
+06:07.712	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 3746/4096 free
+06:07.716	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 4010/4096 free
+06:07.722	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 4073/4096 free
+06:07.729	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4012/4096 free
+06:07.733	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 3984/4096 free
+06:07.737	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 4020/4096 free
+06:07.742	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 4087/4096 free
+06:07.746	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 4057/4096 free
+06:07.750	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 4089/4096 free
+06:07.755	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3796/4096 free
+06:07.759	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 3697/4096 free
+06:07.764	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 4089/4096 free
+06:08.001	ID:2	[DBG : TSCH Stats] Noise RSSI:
+06:08.005	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 3400/4096 free
+06:08.010	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 3796/4096 free
+06:08.014	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 4089/4096 free
+06:08.018	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 3886/4096 free
+06:08.023	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 3766/4096 free
+06:08.027	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3451/4096 free
+06:08.032	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 3793/4096 free
+06:08.037	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 3977/4096 free
+06:08.044	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 4031/4096 free
+06:08.048	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 3984/4096 free
+06:08.053	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 3925/4096 free
+06:08.057	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 4010/4096 free
+06:08.061	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 4087/4096 free
+06:08.066	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4082/4096 free
+06:08.070	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 4086/4096 free
+06:08.074	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4058/4096 free
+06:08.077	ID:2	[DBG : TSCH Stats] Time source neighbor:
+06:08.083	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 54 lqi, 2048/4096 P(tx)
+06:08.091	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+06:08.096	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 60 lqi, 2048/4096 P(tx)
+06:08.101	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 73 lqi, 2048/4096 P(tx)
+06:08.106	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 82 lqi, 2048/4096 P(tx)
+06:08.112	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+06:08.117	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 59 lqi, 2048/4096 P(tx)
+06:08.122	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+06:08.128	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+06:08.136	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 64 lqi, 2048/4096 P(tx)
+06:08.141	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 91 lqi, 2311/4096 P(tx)
+06:08.146	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+06:08.151	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 100 lqi, 2048/4096 P(tx)
+06:08.156	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+06:08.161	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 50 lqi, 2048/4096 P(tx)
+06:08.166	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 95 lqi, 2048/4096 P(tx)
+07:03.951	ID:1	ch 14 q 4089 busy 0 in seq 1
+07:03.953	ID:1	ch 15 q 4089 busy 0 in seq 0
+07:03.955	ID:1	ch 17 q 4089 busy 0 in seq 0
+07:03.958	ID:1	ch 11 q 4082 busy 0 in seq 1
+07:03.960	ID:1	ch 20 q 4080 busy 0 in seq 0
+07:03.962	ID:1	ch 22 q 4057 busy 0 in seq 0
+07:03.965	ID:1	ch 18 q 4046 busy 0 in seq 0
+07:03.967	ID:1	ch 21 q 4022 busy 0 in seq 0
+07:03.969	ID:1	ch 24 q 4004 busy 0 in seq 0
+07:03.972	ID:1	ch 19 q 3991 busy 0 in seq 0
+07:03.974	ID:1	ch 16 q 3789 busy 0 in seq 0
+07:03.976	ID:1	ch 25 q 3767 busy 0 in seq 1
+07:03.979	ID:1	ch 12 q 3697 busy 0 in seq 0
+07:03.982	ID:1	ch 13 q 3592 busy 0 in seq 0
+07:03.987	ID:1	ch 23 q 3591 busy 0 in seq 1
+07:03.989	ID:1	ch 26 q 3575 busy 0 in seq 0
+07:03.990	ID:1	cs: not replacing
+07:07.193	ID:1	ch 14 q 4089 busy 0 in seq 1
+07:07.195	ID:1	ch 15 q 4089 busy 0 in seq 0
+07:07.198	ID:1	ch 17 q 4089 busy 0 in seq 0
+07:07.200	ID:1	ch 20 q 4086 busy 0 in seq 0
+07:07.202	ID:1	ch 18 q 4068 busy 0 in seq 0
+07:07.205	ID:1	ch 21 q 4057 busy 0 in seq 0
+07:07.207	ID:1	ch 19 q 4040 busy 0 in seq 0
+07:07.209	ID:1	ch 16 q 3914 busy 0 in seq 0
+07:07.212	ID:1	ch 12 q 3860 busy 0 in seq 0
+07:07.214	ID:1	ch 23 q 3836 busy 0 in seq 1
+07:07.216	ID:1	ch 13 q 3800 busy 0 in seq 0
+07:07.219	ID:1	ch 26 q 3789 busy 0 in seq 0
+07:07.221	ID:1	ch 24 q 3704 busy 0 in seq 0
+07:07.223	ID:1	ch 11 q 3638 busy 0 in seq 1
+07:07.229	ID:1	ch 22 q 3626 busy 0 in seq 0
+07:07.231	ID:1	ch 25 q 3414 busy 1 in seq 1
+07:07.237	ID:1	cs: replacing channel 25 25 (1) with 15
+07:07.764	ID:1	[DBG : TSCH Stats] Noise RSSI:
+07:07.772	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 3695/4096 free
+07:07.776	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 3889/4096 free
+07:07.781	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3837/4096 free
+07:07.785	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 4089/4096 free
+07:07.789	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 4089/4096 free
+07:07.794	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 3936/4096 free
+07:07.798	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 4089/4096 free
+07:07.803	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4071/4096 free
+07:07.807	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 4047/4096 free
+07:07.815	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 4087/4096 free
+07:07.819	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 4061/4096 free
+07:07.824	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 3684/4096 free
+07:07.828	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 3868/4096 free
+07:07.832	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3704/4096 free
+07:07.837	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 3414/4096 free
+07:07.841	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3827/4096 free
+07:08.165	ID:2	[DBG : TSCH Stats] Noise RSSI:
+07:08.169	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4062/4096 free
+07:08.178	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 3627/4096 free
+07:08.182	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 3914/4096 free
+07:08.187	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 3723/4096 free
+07:08.191	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 3658/4096 free
+07:08.195	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3771/4096 free
+07:08.200	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 3955/4096 free
+07:08.204	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 4046/4096 free
+07:08.208	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 4089/4096 free
+07:08.213	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 4052/4096 free
+07:08.221	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 3935/4096 free
+07:08.226	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3742/4096 free
+07:08.230	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 4025/4096 free
+07:08.235	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4076/4096 free
+07:08.239	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 3799/4096 free
+07:08.243	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 3627/4096 free
+07:08.246	ID:2	[DBG : TSCH Stats] Time source neighbor:
+07:08.251	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 48 lqi, 2048/4096 P(tx)
+07:08.256	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+07:08.266	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 65 lqi, 2048/4096 P(tx)
+07:08.271	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 67 lqi, 2048/4096 P(tx)
+07:08.276	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 84 lqi, 2048/4096 P(tx)
+07:08.281	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+07:08.286	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 64 lqi, 2048/4096 P(tx)
+07:08.291	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+07:08.296	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+07:08.302	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 69 lqi, 2048/4096 P(tx)
+07:08.311	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 92 lqi, 2278/4096 P(tx)
+07:08.316	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+07:08.321	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 73 lqi, 2048/4096 P(tx)
+07:08.326	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+07:08.331	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 54 lqi, 2048/4096 P(tx)
+07:08.336	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 96 lqi, 2048/4096 P(tx)
+08:06.742	ID:1	ch 15 q 4089 busy 0 in seq 1
+08:06.745	ID:1	ch 16 q 4089 busy 0 in seq 0
+08:06.747	ID:1	ch 18 q 4089 busy 0 in seq 0
+08:06.749	ID:1	ch 20 q 4089 busy 0 in seq 0
+08:06.752	ID:1	ch 21 q 4089 busy 0 in seq 0
+08:06.754	ID:1	ch 25 q 4040 busy 0 in seq 0
+08:06.756	ID:1	ch 12 q 4022 busy 0 in seq 0
+08:06.759	ID:1	ch 23 q 4011 busy 0 in seq 1
+08:06.761	ID:1	ch 17 q 3860 busy 0 in seq 0
+08:06.763	ID:1	ch 22 q 3772 busy 0 in seq 0
+08:06.766	ID:1	ch 26 q 3760 busy 0 in seq 0
+08:06.768	ID:1	ch 13 q 3710 busy 0 in seq 0
+08:06.770	ID:1	ch 24 q 3699 busy 0 in seq 0
+08:06.773	ID:1	ch 11 q 3628 busy 0 in seq 1
+08:06.779	ID:1	ch 19 q 3597 busy 0 in seq 0
+08:06.781	ID:1	ch 14 q 3573 busy 0 in seq 1
+08:06.782	ID:1	cs: not replacing
+08:07.842	ID:1	[DBG : TSCH Stats] Noise RSSI:
+08:07.847	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 3737/4096 free
+08:07.851	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 4031/4096 free
+08:07.859	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3758/4096 free
+08:07.863	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 3638/4096 free
+08:07.868	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 4089/4096 free
+08:07.872	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 4089/4096 free
+08:07.876	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 3889/4096 free
+08:07.881	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4089/4096 free
+08:07.885	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 3659/4096 free
+08:07.889	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 4089/4096 free
+08:07.894	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 4089/4096 free
+08:07.899	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 3847/4096 free
+08:07.906	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 4030/4096 free
+08:07.910	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3791/4096 free
+08:07.915	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 3605/4096 free
+08:07.919	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3838/4096 free
+08:08.337	ID:2	[DBG : TSCH Stats] Noise RSSI:
+08:08.341	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4069/4096 free
+08:08.346	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 3755/4096 free
+08:08.351	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 3531/4096 free
+08:08.358	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 4065/4096 free
+08:08.362	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 3719/4096 free
+08:08.367	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 4033/4096 free
+08:08.371	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 3820/4096 free
+08:08.376	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 3697/4096 free
+08:08.380	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 4089/4096 free
+08:08.384	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 3721/4096 free
+08:08.389	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 4089/4096 free
+08:08.393	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3953/4096 free
+08:08.401	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 4089/4096 free
+08:08.405	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4089/4096 free
+08:08.410	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 4087/4096 free
+08:08.414	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4049/4096 free
+08:08.417	ID:2	[DBG : TSCH Stats] Time source neighbor:
+08:08.422	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 46 lqi, 2048/4096 P(tx)
+08:08.427	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+08:08.432	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 69 lqi, 2048/4096 P(tx)
+08:08.437	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 63 lqi, 2048/4096 P(tx)
+08:08.446	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 70 lqi, 2048/4096 P(tx)
+08:08.451	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 100 lqi, 2048/4096 P(tx)
+08:08.456	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 68 lqi, 2048/4096 P(tx)
+08:08.461	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+08:08.467	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+08:08.472	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 73 lqi, 2048/4096 P(tx)
+08:08.477	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 93 lqi, 2249/4096 P(tx)
+08:08.482	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+08:08.491	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 54 lqi, 2048/4096 P(tx)
+08:08.496	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+08:08.501	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 59 lqi, 2048/4096 P(tx)
+08:08.506	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 96 lqi, 2048/4096 P(tx)
+08:09.219	ID:1	ch 16 q 4089 busy 0 in seq 0
+08:09.221	ID:1	ch 18 q 4089 busy 0 in seq 0
+08:09.223	ID:1	ch 20 q 4089 busy 0 in seq 0
+08:09.226	ID:1	ch 21 q 4089 busy 0 in seq 0
+08:09.228	ID:1	ch 23 q 4045 busy 0 in seq 1
+08:09.230	ID:1	ch 17 q 3936 busy 0 in seq 0
+08:09.233	ID:1	ch 22 q 3905 busy 0 in seq 0
+08:09.235	ID:1	ch 24 q 3862 busy 0 in seq 0
+08:09.237	ID:1	ch 13 q 3837 busy 0 in seq 0
+08:09.239	ID:1	ch 11 q 3781 busy 0 in seq 1
+08:09.242	ID:1	ch 19 q 3760 busy 0 in seq 0
+08:09.244	ID:1	ch 14 q 3745 busy 0 in seq 1
+08:09.246	ID:1	ch 25 q 3719 busy 0 in seq 0
+08:09.249	ID:1	ch 12 q 3598 busy 0 in seq 0
+08:09.253	ID:1	ch 15 q 3577 busy 0 in seq 1
+08:09.256	ID:1	ch 26 q 3386 busy 1 in seq 0
+08:09.257	ID:1	cs: not replacing
+08:10.570	ID:1	ch 16 q 4089 busy 0 in seq 0
+08:10.572	ID:1	ch 18 q 4089 busy 0 in seq 0
+08:10.575	ID:1	ch 20 q 4089 busy 0 in seq 0
+08:10.577	ID:1	ch 21 q 4089 busy 0 in seq 0
+08:10.579	ID:1	ch 23 q 4056 busy 0 in seq 1
+08:10.581	ID:1	ch 17 q 3973 busy 0 in seq 0
+08:10.584	ID:1	ch 22 q 3949 busy 0 in seq 0
+08:10.586	ID:1	ch 13 q 3897 busy 0 in seq 0
+08:10.588	ID:1	ch 11 q 3854 busy 0 in seq 1
+08:10.591	ID:1	ch 19 q 3838 busy 0 in seq 0
+08:10.593	ID:1	ch 14 q 3826 busy 0 in seq 1
+08:10.595	ID:1	ch 25 q 3766 busy 0 in seq 0
+08:10.598	ID:1	ch 12 q 3714 busy 0 in seq 0
+08:10.600	ID:1	ch 15 q 3697 busy 0 in seq 1
+08:10.606	ID:1	ch 26 q 3474 busy 1 in seq 0
+08:10.608	ID:1	ch 24 q 3404 busy 1 in seq 0
+08:10.610	ID:1	cs: not replacing
+08:10.660	ID:1	ch 16 q 4089 busy 0 in seq 0
+08:10.662	ID:1	ch 18 q 4089 busy 0 in seq 0
+08:10.665	ID:1	ch 20 q 4089 busy 0 in seq 0
+08:10.667	ID:1	ch 21 q 4089 busy 0 in seq 0
+08:10.669	ID:1	ch 23 q 4056 busy 0 in seq 1
+08:10.672	ID:1	ch 17 q 3973 busy 0 in seq 0
+08:10.674	ID:1	ch 22 q 3949 busy 0 in seq 0
+08:10.676	ID:1	ch 13 q 3897 busy 0 in seq 0
+08:10.679	ID:1	ch 11 q 3854 busy 0 in seq 1
+08:10.681	ID:1	ch 19 q 3838 busy 0 in seq 0
+08:10.683	ID:1	ch 14 q 3826 busy 0 in seq 1
+08:10.686	ID:1	ch 25 q 3807 busy 0 in seq 0
+08:10.688	ID:1	ch 12 q 3714 busy 0 in seq 0
+08:10.690	ID:1	ch 15 q 3697 busy 0 in seq 1
+08:10.696	ID:1	ch 26 q 3551 busy 0 in seq 0
+08:10.699	ID:1	ch 24 q 3404 busy 1 in seq 0
+08:10.700	ID:1	cs: not replacing
+08:11.293	ID:1	ch 16 q 4089 busy 0 in seq 0
+08:11.295	ID:1	ch 18 q 4089 busy 0 in seq 0
+08:11.298	ID:1	ch 20 q 4089 busy 0 in seq 0
+08:11.300	ID:1	ch 21 q 4089 busy 0 in seq 0
+08:11.302	ID:1	ch 23 q 4061 busy 0 in seq 1
+08:11.305	ID:1	ch 17 q 3988 busy 0 in seq 0
+08:11.307	ID:1	ch 22 q 3967 busy 0 in seq 0
+08:11.309	ID:1	ch 13 q 3921 busy 0 in seq 0
+08:11.312	ID:1	ch 11 q 3884 busy 0 in seq 1
+08:11.314	ID:1	ch 19 q 3870 busy 0 in seq 0
+08:11.316	ID:1	ch 14 q 3859 busy 0 in seq 1
+08:11.319	ID:1	ch 25 q 3807 busy 0 in seq 0
+08:11.321	ID:1	ch 12 q 3761 busy 0 in seq 0
+08:11.327	ID:1	ch 15 q 3746 busy 0 in seq 1
+08:11.329	ID:1	ch 26 q 3551 busy 0 in seq 0
+08:11.332	ID:1	ch 24 q 3490 busy 0 in seq 0
+08:11.333	ID:1	cs: not replacing
+08:11.698	ID:1	ch 16 q 4089 busy 0 in seq 0
+08:11.700	ID:1	ch 18 q 4089 busy 0 in seq 0
+08:11.703	ID:1	ch 20 q 4089 busy 0 in seq 0
+08:11.705	ID:1	ch 21 q 4089 busy 0 in seq 0
+08:11.707	ID:1	ch 23 q 4061 busy 0 in seq 1
+08:11.710	ID:1	ch 17 q 4001 busy 0 in seq 0
+08:11.712	ID:1	ch 22 q 3967 busy 0 in seq 0
+08:11.714	ID:1	ch 13 q 3942 busy 0 in seq 0
+08:11.717	ID:1	ch 14 q 3888 busy 0 in seq 1
+08:11.719	ID:1	ch 19 q 3870 busy 0 in seq 0
+08:11.721	ID:1	ch 25 q 3843 busy 0 in seq 0
+08:11.724	ID:1	ch 12 q 3802 busy 0 in seq 0
+08:11.726	ID:1	ch 15 q 3789 busy 0 in seq 1
+08:11.729	ID:1	ch 26 q 3619 busy 0 in seq 0
+08:11.734	ID:1	ch 24 q 3490 busy 0 in seq 0
+08:11.736	ID:1	ch 11 q 3398 busy 1 in seq 1
+08:11.740	ID:1	cs: replacing channel 11 11 (2) with 16
+09:07.920	ID:1	[DBG : TSCH Stats] Noise RSSI:
+09:07.925	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 3445/4096 free
+09:07.929	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 3832/4096 free
+09:07.933	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3955/4096 free
+09:07.938	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 4022/4096 free
+09:07.943	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 3998/4096 free
+09:07.950	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 3912/4096 free
+09:07.954	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 4012/4096 free
+09:07.959	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4082/4096 free
+09:07.963	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 4089/4096 free
+09:07.968	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 4089/4096 free
+09:07.972	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 4087/4096 free
+09:07.976	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 3398/4096 free
+09:07.981	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 3827/4096 free
+09:07.985	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3697/4096 free
+09:07.992	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 3886/4096 free
+09:07.996	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3693/4096 free
+09:08.501	ID:2	[DBG : TSCH Stats] Noise RSSI:
+09:08.505	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4089/4096 free
+09:08.510	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 3694/4096 free
+09:08.514	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 3830/4096 free
+09:08.518	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 3653/4096 free
+09:08.523	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 3427/4096 free
+09:08.528	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3763/4096 free
+09:08.536	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 3942/4096 free
+09:08.540	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 4074/4096 free
+09:08.544	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 3987/4096 free
+09:08.549	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 4029/4096 free
+09:08.553	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 4089/4096 free
+09:08.557	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 4089/4096 free
+09:08.562	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 4089/4096 free
+09:08.566	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4089/4096 free
+09:08.571	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 3784/4096 free
+09:08.579	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 3487/4096 free
+09:08.582	ID:2	[DBG : TSCH Stats] Time source neighbor:
+09:08.587	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 52 lqi, 2048/4096 P(tx)
+09:08.592	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+09:08.597	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 73 lqi, 2048/4096 P(tx)
+09:08.602	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 52 lqi, 2048/4096 P(tx)
+09:08.607	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 65 lqi, 2048/4096 P(tx)
+09:08.612	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 85 lqi, 2048/4096 P(tx)
+09:08.618	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 72 lqi, 2048/4096 P(tx)
+09:08.627	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 100 lqi, 2048/4096 P(tx)
+09:08.632	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+09:08.637	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 76 lqi, 2048/4096 P(tx)
+09:08.642	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 93 lqi, 2223/4096 P(tx)
+09:08.647	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+09:08.652	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 47 lqi, 2048/4096 P(tx)
+09:08.658	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+09:08.663	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 64 lqi, 2048/4096 P(tx)
+09:08.670	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 97 lqi, 2048/4096 P(tx)
+09:11.470	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:11.473	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:11.475	ID:1	ch 18 q 4086 busy 0 in seq 0
+09:11.477	ID:1	ch 14 q 4057 busy 0 in seq 1
+09:11.480	ID:1	ch 17 q 4046 busy 0 in seq 0
+09:11.482	ID:1	ch 15 q 4044 busy 0 in seq 1
+09:11.484	ID:1	ch 13 q 4022 busy 0 in seq 0
+09:11.486	ID:1	ch 16 q 4000 busy 0 in seq 1
+09:11.489	ID:1	ch 23 q 3956 busy 0 in seq 1
+09:11.491	ID:1	ch 24 q 3889 busy 0 in seq 0
+09:11.493	ID:1	ch 11 q 3760 busy 0 in seq 0
+09:11.496	ID:1	ch 22 q 3736 busy 0 in seq 0
+09:11.498	ID:1	ch 25 q 3687 busy 0 in seq 0
+09:11.501	ID:1	ch 12 q 3616 busy 0 in seq 0
+09:11.506	ID:1	ch 21 q 3577 busy 0 in seq 0
+09:11.509	ID:1	ch 26 q 3439 busy 1 in seq 0
+09:11.510	ID:1	cs: not replacing
+09:12.146	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:12.149	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:12.151	ID:1	ch 18 q 4087 busy 0 in seq 0
+09:12.153	ID:1	ch 14 q 4061 busy 0 in seq 1
+09:12.156	ID:1	ch 17 q 4052 busy 0 in seq 0
+09:12.158	ID:1	ch 15 q 4050 busy 0 in seq 1
+09:12.160	ID:1	ch 13 q 4031 busy 0 in seq 0
+09:12.163	ID:1	ch 16 q 4000 busy 0 in seq 1
+09:12.165	ID:1	ch 23 q 3973 busy 0 in seq 1
+09:12.167	ID:1	ch 11 q 3802 busy 0 in seq 0
+09:12.170	ID:1	ch 22 q 3781 busy 0 in seq 0
+09:12.172	ID:1	ch 25 q 3738 busy 0 in seq 0
+09:12.174	ID:1	ch 12 q 3676 busy 0 in seq 0
+09:12.177	ID:1	ch 21 q 3641 busy 0 in seq 0
+09:12.183	ID:1	ch 26 q 3521 busy 0 in seq 0
+09:12.185	ID:1	ch 24 q 3402 busy 1 in seq 0
+09:12.186	ID:1	cs: not replacing
+09:12.823	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:12.825	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:12.827	ID:1	ch 18 q 4088 busy 0 in seq 0
+09:12.829	ID:1	ch 14 q 4065 busy 0 in seq 1
+09:12.832	ID:1	ch 17 q 4057 busy 0 in seq 0
+09:12.834	ID:1	ch 15 q 4050 busy 0 in seq 1
+09:12.836	ID:1	ch 13 q 4039 busy 0 in seq 0
+09:12.839	ID:1	ch 16 q 4012 busy 0 in seq 1
+09:12.841	ID:1	ch 23 q 3988 busy 0 in seq 1
+09:12.843	ID:1	ch 22 q 3820 busy 0 in seq 0
+09:12.846	ID:1	ch 25 q 3782 busy 0 in seq 0
+09:12.848	ID:1	ch 12 q 3728 busy 0 in seq 0
+09:12.850	ID:1	ch 21 q 3697 busy 0 in seq 0
+09:12.854	ID:1	ch 26 q 3592 busy 0 in seq 0
+09:12.859	ID:1	ch 24 q 3488 busy 0 in seq 0
+09:12.861	ID:1	ch 11 q 3326 busy 1 in seq 0
+09:12.862	ID:1	cs: not replacing
+09:13.767	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:13.770	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:13.772	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:13.774	ID:1	ch 14 q 4068 busy 0 in seq 1
+09:13.776	ID:1	ch 17 q 4065 busy 0 in seq 0
+09:13.779	ID:1	ch 15 q 4060 busy 0 in seq 1
+09:13.781	ID:1	ch 13 q 4046 busy 0 in seq 0
+09:13.783	ID:1	ch 16 q 4031 busy 0 in seq 1
+09:13.786	ID:1	ch 23 q 4001 busy 0 in seq 1
+09:13.788	ID:1	ch 25 q 3821 busy 0 in seq 0
+09:13.790	ID:1	ch 12 q 3774 busy 0 in seq 0
+09:13.793	ID:1	ch 21 q 3746 busy 0 in seq 0
+09:13.795	ID:1	ch 26 q 3655 busy 0 in seq 0
+09:13.798	ID:1	ch 24 q 3564 busy 0 in seq 0
+09:13.803	ID:1	ch 11 q 3422 busy 1 in seq 0
+09:13.806	ID:1	ch 22 q 3342 busy 1 in seq 0
+09:13.807	ID:1	cs: not replacing
+09:14.037	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:14.039	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:14.041	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:14.044	ID:1	ch 14 q 4068 busy 0 in seq 1
+09:14.046	ID:1	ch 17 q 4065 busy 0 in seq 0
+09:14.048	ID:1	ch 15 q 4060 busy 0 in seq 1
+09:14.051	ID:1	ch 13 q 4046 busy 0 in seq 0
+09:14.053	ID:1	ch 16 q 4031 busy 0 in seq 1
+09:14.055	ID:1	ch 23 q 4012 busy 0 in seq 1
+09:14.058	ID:1	ch 21 q 3789 busy 0 in seq 0
+09:14.060	ID:1	ch 12 q 3774 busy 0 in seq 0
+09:14.062	ID:1	ch 26 q 3655 busy 0 in seq 0
+09:14.065	ID:1	ch 24 q 3630 busy 0 in seq 0
+09:14.067	ID:1	ch 22 q 3436 busy 1 in seq 0
+09:14.073	ID:1	ch 11 q 3422 busy 1 in seq 0
+09:14.075	ID:1	ch 25 q 3343 busy 1 in seq 0
+09:14.076	ID:1	cs: not replacing
+09:14.442	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:14.445	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:14.447	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:14.449	ID:1	ch 14 q 4071 busy 0 in seq 1
+09:14.451	ID:1	ch 17 q 4068 busy 0 in seq 0
+09:14.454	ID:1	ch 15 q 4064 busy 0 in seq 1
+09:14.456	ID:1	ch 13 q 4052 busy 0 in seq 0
+09:14.458	ID:1	ch 16 q 4039 busy 0 in seq 1
+09:14.461	ID:1	ch 23 q 4012 busy 0 in seq 1
+09:14.463	ID:1	ch 12 q 3814 busy 0 in seq 0
+09:14.465	ID:1	ch 21 q 3789 busy 0 in seq 0
+09:14.468	ID:1	ch 26 q 3710 busy 0 in seq 0
+09:14.470	ID:1	ch 24 q 3630 busy 0 in seq 0
+09:14.472	ID:1	ch 11 q 3506 busy 0 in seq 0
+09:14.478	ID:1	ch 22 q 3436 busy 1 in seq 0
+09:14.481	ID:1	ch 25 q 3343 busy 1 in seq 0
+09:14.482	ID:1	cs: not replacing
+09:14.712	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:14.715	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:14.717	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:14.719	ID:1	ch 14 q 4071 busy 0 in seq 1
+09:14.722	ID:1	ch 17 q 4068 busy 0 in seq 0
+09:14.724	ID:1	ch 15 q 4064 busy 0 in seq 1
+09:14.726	ID:1	ch 13 q 4052 busy 0 in seq 0
+09:14.729	ID:1	ch 16 q 4039 busy 0 in seq 1
+09:14.731	ID:1	ch 23 q 4022 busy 0 in seq 1
+09:14.733	ID:1	ch 21 q 3827 busy 0 in seq 0
+09:14.736	ID:1	ch 12 q 3814 busy 0 in seq 0
+09:14.738	ID:1	ch 26 q 3710 busy 0 in seq 0
+09:14.740	ID:1	ch 24 q 3688 busy 0 in seq 0
+09:14.743	ID:1	ch 22 q 3518 busy 0 in seq 0
+09:14.748	ID:1	ch 11 q 3506 busy 0 in seq 0
+09:14.751	ID:1	ch 25 q 3343 busy 1 in seq 0
+09:14.752	ID:1	cs: not replacing
+09:15.528	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:15.531	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:15.533	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:15.535	ID:1	ch 14 q 4074 busy 0 in seq 1
+09:15.538	ID:1	ch 17 q 4071 busy 0 in seq 0
+09:15.540	ID:1	ch 15 q 4068 busy 0 in seq 1
+09:15.542	ID:1	ch 13 q 4057 busy 0 in seq 0
+09:15.545	ID:1	ch 16 q 4046 busy 0 in seq 1
+09:15.547	ID:1	ch 21 q 3860 busy 0 in seq 0
+09:15.549	ID:1	ch 12 q 3849 busy 0 in seq 0
+09:15.552	ID:1	ch 26 q 3800 busy 0 in seq 0
+09:15.555	ID:1	ch 24 q 3739 busy 0 in seq 0
+09:15.560	ID:1	ch 22 q 3590 busy 0 in seq 0
+09:15.562	ID:1	ch 11 q 3579 busy 0 in seq 0
+09:15.564	ID:1	ch 23 q 3519 busy 0 in seq 1
+09:15.567	ID:1	ch 25 q 3519 busy 0 in seq 0
+09:15.568	ID:1	cs: not replacing
+09:16.845	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:16.848	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:16.850	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:16.852	ID:1	ch 14 q 4078 busy 0 in seq 1
+09:16.855	ID:1	ch 17 q 4076 busy 0 in seq 0
+09:16.857	ID:1	ch 15 q 4074 busy 0 in seq 1
+09:16.859	ID:1	ch 13 q 4065 busy 0 in seq 0
+09:16.863	ID:1	ch 16 q 4057 busy 0 in seq 1
+09:16.868	ID:1	ch 12 q 3906 busy 0 in seq 0
+09:16.870	ID:1	ch 24 q 3783 busy 0 in seq 0
+09:16.872	ID:1	ch 22 q 3708 busy 0 in seq 0
+09:16.875	ID:1	ch 11 q 3699 busy 0 in seq 0
+09:16.877	ID:1	ch 23 q 3654 busy 0 in seq 1
+09:16.879	ID:1	ch 25 q 3591 busy 0 in seq 0
+09:16.882	ID:1	ch 21 q 3402 busy 1 in seq 0
+09:16.884	ID:1	ch 26 q 3325 busy 1 in seq 0
+09:16.885	ID:1	cs: not replacing
+09:17.912	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:17.914	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:17.916	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:17.919	ID:1	ch 14 q 4082 busy 0 in seq 1
+09:17.921	ID:1	ch 15 q 4078 busy 0 in seq 1
+09:17.923	ID:1	ch 17 q 4078 busy 0 in seq 0
+09:17.926	ID:1	ch 13 q 4071 busy 0 in seq 0
+09:17.928	ID:1	ch 16 q 4061 busy 0 in seq 1
+09:17.930	ID:1	ch 12 q 3949 busy 0 in seq 0
+09:17.933	ID:1	ch 11 q 3791 busy 0 in seq 0
+09:17.935	ID:1	ch 22 q 3756 busy 0 in seq 0
+09:17.937	ID:1	ch 23 q 3709 busy 0 in seq 1
+09:17.940	ID:1	ch 25 q 3709 busy 0 in seq 0
+09:17.943	ID:1	ch 26 q 3505 busy 0 in seq 0
+09:17.948	ID:1	ch 21 q 3488 busy 0 in seq 0
+09:17.950	ID:1	ch 24 q 3344 busy 1 in seq 0
+09:17.951	ID:1	cs: not replacing
+09:18.681	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:18.684	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:18.686	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:18.688	ID:1	ch 14 q 4083 busy 0 in seq 1
+09:18.691	ID:1	ch 15 q 4080 busy 0 in seq 1
+09:18.693	ID:1	ch 17 q 4080 busy 0 in seq 0
+09:18.695	ID:1	ch 13 q 4074 busy 0 in seq 0
+09:18.698	ID:1	ch 16 q 4068 busy 0 in seq 1
+09:18.700	ID:1	ch 12 q 3967 busy 0 in seq 0
+09:18.702	ID:1	ch 11 q 3829 busy 0 in seq 0
+09:18.705	ID:1	ch 22 q 3798 busy 0 in seq 0
+09:18.708	ID:1	ch 23 q 3757 busy 0 in seq 1
+09:18.713	ID:1	ch 25 q 3757 busy 0 in seq 0
+09:18.715	ID:1	ch 21 q 3564 busy 0 in seq 0
+09:18.718	ID:1	ch 24 q 3438 busy 1 in seq 0
+09:18.720	ID:1	ch 26 q 3066 busy 1 in seq 0
+09:18.721	ID:1	cs: not replacing
+09:19.264	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:19.267	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:19.269	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:19.271	ID:1	ch 14 q 4083 busy 0 in seq 1
+09:19.274	ID:1	ch 17 q 4082 busy 0 in seq 0
+09:19.276	ID:1	ch 15 q 4080 busy 0 in seq 1
+09:19.278	ID:1	ch 13 q 4076 busy 0 in seq 0
+09:19.281	ID:1	ch 16 q 4068 busy 0 in seq 1
+09:19.283	ID:1	ch 12 q 3983 busy 0 in seq 0
+09:19.285	ID:1	ch 11 q 3862 busy 0 in seq 0
+09:19.288	ID:1	ch 22 q 3835 busy 0 in seq 0
+09:19.290	ID:1	ch 23 q 3799 busy 0 in seq 1
+09:19.292	ID:1	ch 25 q 3799 busy 0 in seq 0
+09:19.298	ID:1	ch 24 q 3520 busy 0 in seq 0
+09:19.300	ID:1	ch 26 q 3194 busy 1 in seq 0
+09:19.303	ID:1	ch 21 q 3118 busy 1 in seq 0
+09:19.304	ID:1	cs: not replacing
+09:19.908	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:19.910	ID:1	ch 19 q 4089 busy 0 in seq 0
+09:19.913	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:19.915	ID:1	ch 14 q 4084 busy 0 in seq 1
+09:19.917	ID:1	ch 17 q 4083 busy 0 in seq 0
+09:19.920	ID:1	ch 15 q 4082 busy 0 in seq 1
+09:19.922	ID:1	ch 13 q 4076 busy 0 in seq 0
+09:19.925	ID:1	ch 16 q 4071 busy 0 in seq 1
+09:19.930	ID:1	ch 12 q 3983 busy 0 in seq 0
+09:19.932	ID:1	ch 11 q 3891 busy 0 in seq 0
+09:19.935	ID:1	ch 22 q 3867 busy 0 in seq 0
+09:19.937	ID:1	ch 23 q 3836 busy 0 in seq 1
+09:19.939	ID:1	ch 25 q 3836 busy 0 in seq 0
+09:19.942	ID:1	ch 26 q 3306 busy 1 in seq 0
+09:19.944	ID:1	ch 21 q 3240 busy 1 in seq 0
+09:19.946	ID:1	ch 24 q 3080 busy 1 in seq 0
+09:19.948	ID:1	cs: not replacing
+09:20.435	ID:1	ch 18 q 4089 busy 0 in seq 0
+09:20.438	ID:1	ch 20 q 4089 busy 0 in seq 0
+09:20.440	ID:1	ch 14 q 4085 busy 0 in seq 1
+09:20.442	ID:1	ch 15 q 4083 busy 0 in seq 1
+09:20.445	ID:1	ch 13 q 4078 busy 0 in seq 0
+09:20.447	ID:1	ch 16 q 4074 busy 0 in seq 1
+09:20.449	ID:1	ch 12 q 3997 busy 0 in seq 0
+09:20.452	ID:1	ch 22 q 3895 busy 0 in seq 0
+09:20.454	ID:1	ch 11 q 3891 busy 0 in seq 0
+09:20.456	ID:1	ch 25 q 3836 busy 0 in seq 0
+09:20.459	ID:1	ch 19 q 3577 busy 0 in seq 0
+09:20.461	ID:1	ch 17 q 3572 busy 0 in seq 0
+09:20.463	ID:1	ch 23 q 3356 busy 1 in seq 1
+09:20.469	ID:1	ch 26 q 3306 busy 1 in seq 0
+09:20.471	ID:1	ch 24 q 3080 busy 1 in seq 0
+09:20.473	ID:1	ch 21 q 2835 busy 1 in seq 0
+09:20.476	ID:1	cs: replacing channel 23 23 (3) with 18
+10:07.998	ID:1	[DBG : TSCH Stats] Noise RSSI:
+10:08.003	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 4089/4096 free
+10:08.007	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 4089/4096 free
+10:08.012	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 4089/4096 free
+10:08.016	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 4084/4096 free
+10:08.020	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 4089/4096 free
+10:08.025	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 4089/4096 free
+10:08.029	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 4082/4096 free
+10:08.037	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4001/4096 free
+10:08.041	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 3344/4096 free
+10:08.046	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 3997/4096 free
+10:08.050	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 3673/4096 free
+10:08.054	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 4012/4096 free
+10:08.059	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 4050/4096 free
+10:08.063	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3536/4096 free
+10:08.068	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 3998/4096 free
+10:08.072	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 3331/4096 free
+10:08.673	ID:2	[DBG : TSCH Stats] Noise RSSI:
+10:08.677	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 3743/4096 free
+10:08.682	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 3123/4096 free
+10:08.686	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 3893/4096 free
+10:08.690	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 3135/4096 free
+10:08.695	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 3936/4096 free
+10:08.699	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 4089/4096 free
+10:08.703	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 4089/4096 free
+10:08.710	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 4085/4096 free
+10:08.715	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 4089/4096 free
+10:08.719	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 4089/4096 free
+10:08.723	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 4089/4096 free
+10:08.728	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3967/4096 free
+10:08.732	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 3870/4096 free
+10:08.736	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 3808/4096 free
+10:08.741	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 3637/4096 free
+10:08.745	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 4018/4096 free
+10:08.748	ID:2	[DBG : TSCH Stats] Time source neighbor:
+10:08.757	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 58 lqi, 2048/4096 P(tx)
+10:08.762	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 100 lqi, 2048/4096 P(tx)
+10:08.767	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 76 lqi, 2048/4096 P(tx)
+10:08.773	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 49 lqi, 2048/4096 P(tx)
+10:08.778	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 65 lqi, 2048/4096 P(tx)
+10:08.783	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 66 lqi, 2048/4096 P(tx)
+10:08.788	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 75 lqi, 2048/4096 P(tx)
+10:08.793	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 79 lqi, 2048/4096 P(tx)
+10:08.802	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+10:08.807	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 79 lqi, 2048/4096 P(tx)
+10:08.812	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 94 lqi, 2201/4096 P(tx)
+10:08.817	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+10:08.822	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 50 lqi, 2048/4096 P(tx)
+10:08.828	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+10:08.833	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 69 lqi, 2048/4096 P(tx)
+10:08.838	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 97 lqi, 2048/4096 P(tx)
+10:20.623	ID:1	ch 12 q 4089 busy 0 in seq 0
+10:20.625	ID:1	ch 13 q 4089 busy 0 in seq 0
+10:20.627	ID:1	ch 15 q 4089 busy 0 in seq 1
+10:20.630	ID:1	ch 17 q 4089 busy 0 in seq 0
+10:20.632	ID:1	ch 21 q 4049 busy 0 in seq 0
+10:20.634	ID:1	ch 24 q 4035 busy 0 in seq 0
+10:20.636	ID:1	ch 22 q 4025 busy 0 in seq 0
+10:20.639	ID:1	ch 26 q 4025 busy 0 in seq 0
+10:20.641	ID:1	ch 19 q 4015 busy 0 in seq 0
+10:20.644	ID:1	ch 14 q 4001 busy 0 in seq 1
+10:20.649	ID:1	ch 23 q 3955 busy 0 in seq 0
+10:20.652	ID:1	ch 16 q 3787 busy 0 in seq 1
+10:20.654	ID:1	ch 25 q 3687 busy 0 in seq 0
+10:20.656	ID:1	ch 11 q 3641 busy 0 in seq 0
+10:20.659	ID:1	ch 20 q 3612 busy 0 in seq 0
+10:20.661	ID:1	ch 18 q 2875 busy 1 in seq 1
+10:20.664	ID:1	cs: replacing channel 18 18 (3) with 12
+11:08.069	ID:1	[DBG : TSCH Stats] Noise RSSI:
+11:08.073	ID:1	[DBG : TSCH Stats]   channel 11: 0 rssi, 4066/4096 free
+11:08.081	ID:1	[DBG : TSCH Stats]   channel 12: 0 rssi, 4037/4096 free
+11:08.085	ID:1	[DBG : TSCH Stats]   channel 13: 0 rssi, 3844/4096 free
+11:08.090	ID:1	[DBG : TSCH Stats]   channel 14: 0 rssi, 3743/4096 free
+11:08.094	ID:1	[DBG : TSCH Stats]   channel 15: 0 rssi, 3402/4096 free
+11:08.099	ID:1	[DBG : TSCH Stats]   channel 16: 0 rssi, 3809/4096 free
+11:08.103	ID:1	[DBG : TSCH Stats]   channel 17: 0 rssi, 3558/4096 free
+11:08.107	ID:1	[DBG : TSCH Stats]   channel 18: 0 rssi, 4071/4096 free
+11:08.112	ID:1	[DBG : TSCH Stats]   channel 19: 0 rssi, 3661/4096 free
+11:08.116	ID:1	[DBG : TSCH Stats]   channel 20: 0 rssi, 3951/4096 free
+11:08.121	ID:1	[DBG : TSCH Stats]   channel 21: 0 rssi, 4089/4096 free
+11:08.128	ID:1	[DBG : TSCH Stats]   channel 22: 0 rssi, 3987/4096 free
+11:08.133	ID:1	[DBG : TSCH Stats]   channel 23: 0 rssi, 4061/4096 free
+11:08.137	ID:1	[DBG : TSCH Stats]   channel 24: 0 rssi, 3992/4096 free
+11:08.141	ID:1	[DBG : TSCH Stats]   channel 25: 0 rssi, 4086/4096 free
+11:08.146	ID:1	[DBG : TSCH Stats]   channel 26: 0 rssi, 4089/4096 free
+11:08.837	ID:2	[DBG : TSCH Stats] Noise RSSI:
+11:08.845	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 4074/4096 free
+11:08.849	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 4029/4096 free
+11:08.854	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 4089/4096 free
+11:08.858	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 4074/4096 free
+11:08.862	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 4089/4096 free
+11:08.867	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 3697/4096 free
+11:08.871	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 3842/4096 free
+11:08.875	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 4072/4096 free
+11:08.880	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 3458/4096 free
+11:08.884	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 3750/4096 free
+11:08.892	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 3616/4096 free
+11:08.896	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 3402/4096 free
+11:08.901	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 3741/4096 free
+11:08.905	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 4078/4096 free
+11:08.910	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 4031/4096 free
+11:08.914	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 3998/4096 free
+11:08.917	ID:2	[DBG : TSCH Stats] Time source neighbor:
+11:08.922	ID:2	[DBG : TSCH Stats]   channel 11: 0 rssi, 63 lqi, 2048/4096 P(tx)
+11:08.927	ID:2	[DBG : TSCH Stats]   channel 12: 0 rssi, 73 lqi, 2048/4096 P(tx)
+11:08.936	ID:2	[DBG : TSCH Stats]   channel 13: 0 rssi, 79 lqi, 2048/4096 P(tx)
+11:08.941	ID:2	[DBG : TSCH Stats]   channel 14: 0 rssi, 43 lqi, 2048/4096 P(tx)
+11:08.946	ID:2	[DBG : TSCH Stats]   channel 15: 0 rssi, 61 lqi, 2048/4096 P(tx)
+11:08.951	ID:2	[DBG : TSCH Stats]   channel 16: 0 rssi, 62 lqi, 2048/4096 P(tx)
+11:08.956	ID:2	[DBG : TSCH Stats]   channel 17: 0 rssi, 78 lqi, 2048/4096 P(tx)
+11:08.961	ID:2	[DBG : TSCH Stats]   channel 18: 0 rssi, 76 lqi, 2048/4096 P(tx)
+11:08.966	ID:2	[DBG : TSCH Stats]   channel 19: 0 rssi, 100 lqi, 2048/4096 P(tx)
+11:08.971	ID:2	[DBG : TSCH Stats]   channel 20: 0 rssi, 81 lqi, 2048/4096 P(tx)
+11:08.980	ID:2	[DBG : TSCH Stats]   channel 21: 0 rssi, 95 lqi, 2181/4096 P(tx)
+11:08.985	ID:2	[DBG : TSCH Stats]   channel 22: 0 rssi, 100 lqi, 2048/4096 P(tx)
+11:08.990	ID:2	[DBG : TSCH Stats]   channel 23: 0 rssi, 56 lqi, 2048/4096 P(tx)
+11:08.995	ID:2	[DBG : TSCH Stats]   channel 24: 0 rssi, 100 lqi, 2048/4096 P(tx)
+11:09.001	ID:2	[DBG : TSCH Stats]   channel 25: 0 rssi, 73 lqi, 2048/4096 P(tx)
+11:09.006	ID:2	[DBG : TSCH Stats]   channel 26: 0 rssi, 97 lqi, 2048/4096 P(tx)

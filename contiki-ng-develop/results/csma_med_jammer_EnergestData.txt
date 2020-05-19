@@ -1,0 +1,33 @@
+01:01.133	ID:2	Energest:
+01:01.138	ID:2	 CPU            22s LPM        37s DEEP LPM    0s  Total time 60s
+01:01.142	ID:2	 Radio LISTEN   60s TRANSMIT    0s OFF         0s
+02:01.133	ID:2	Energest:
+02:01.138	ID:2	 CPU            22s LPM        97s DEEP LPM    0s  Total time 120s
+02:01.143	ID:2	 Radio LISTEN  120s TRANSMIT    0s OFF         0s
+03:01.133	ID:2	Energest:
+03:01.139	ID:2	 CPU            23s LPM       157s DEEP LPM    0s  Total time 180s
+03:01.143	ID:2	 Radio LISTEN  180s TRANSMIT    0s OFF         0s
+04:01.133	ID:2	Energest:
+04:01.139	ID:2	 CPU            23s LPM       217s DEEP LPM    0s  Total time 240s
+04:01.143	ID:2	 Radio LISTEN  240s TRANSMIT    0s OFF         0s
+05:01.133	ID:2	Energest:
+05:01.139	ID:2	 CPU            23s LPM       277s DEEP LPM    0s  Total time 300s
+05:01.143	ID:2	 Radio LISTEN  300s TRANSMIT    0s OFF         0s
+06:01.133	ID:2	Energest:
+06:01.139	ID:2	 CPU            23s LPM       337s DEEP LPM    0s  Total time 360s
+06:01.143	ID:2	 Radio LISTEN  360s TRANSMIT    0s OFF         0s
+07:01.133	ID:2	Energest:
+07:01.139	ID:2	 CPU            23s LPM       397s DEEP LPM    0s  Total time 420s
+07:01.143	ID:2	 Radio LISTEN  420s TRANSMIT    0s OFF         0s
+08:01.133	ID:2	Energest:
+08:01.139	ID:2	 CPU            23s LPM       457s DEEP LPM    0s  Total time 480s
+08:01.143	ID:2	 Radio LISTEN  480s TRANSMIT    0s OFF         0s
+09:01.133	ID:2	Energest:
+09:01.139	ID:2	 CPU            23s LPM       517s DEEP LPM    0s  Total time 540s
+09:01.143	ID:2	 Radio LISTEN  540s TRANSMIT    0s OFF         0s
+10:01.133	ID:2	Energest:
+10:01.139	ID:2	 CPU            23s LPM       577s DEEP LPM    0s  Total time 600s
+10:01.143	ID:2	 Radio LISTEN  600s TRANSMIT    0s OFF         0s
+11:01.133	ID:2	Energest:
+11:01.139	ID:2	 CPU            52s LPM       610s DEEP LPM    0s  Total time 662s
+11:01.143	ID:2	 Radio LISTEN  660s TRANSMIT    0s OFF         2s
