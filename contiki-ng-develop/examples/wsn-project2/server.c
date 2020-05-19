@@ -39,6 +39,7 @@
  */
 
 #include "contiki.h"
+#include "sys/energest.h"
 #include "net/netstack.h"
 #include "net/nullnet/nullnet.h"
 #include <string.h>
@@ -50,11 +51,10 @@
 #define LOG_LEVEL LOG_LEVEL_INFO
 
 /* Configuration */
-#define SEND_INTERVAL (8 * CLOCK_SECOND)
+#define SLEEP_INTERVAL (60 * CLOCK_SECOND)
 
 #if MAC_CONF_WITH_TSCH
 #include "net/mac/tsch/tsch.h"
-
 #include "tsch-cs.h"
 static linkaddr_t coordinator_addr = {{0x01, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00}};
 #endif /* MAC_CONF_WITH_TSCH */
@@ -67,62 +67,58 @@ AUTOSTART_PROCESSES(&nullnet_example_process);
 void input_callback(const void *data, uint16_t len,
                     const linkaddr_t *src, const linkaddr_t *dest)
 {
-
-  unsigned count;
-  memcpy(&count, data, sizeof(count));
-  LOG_INFO("Received %c from ", (char)count);
-  LOG_INFO_LLADDR(src);
-  LOG_INFO_("\n");
-
-  /*
-  char payload_char[32] = {0};
-  unsigned payload;
+  char payload[32];
   memcpy(&payload, data, sizeof(payload));
-
-
-  for (size_t i = 0; i < 32; i++)
-  {
-    payload_char[i] = (char)payload++;
-    printf("Hej received 1");
-    printf("Received : %c", payload_char[i]);
-  }
-
-  printf("Hej received 2\n");
-
-  LOG_INFO("Received %c from ", payload_char);
+  printf("Received: %.*s ", (int)sizeof(payload), payload);
   LOG_INFO_LLADDR(src);
-  LOG_INFO_("\n");
-  */
+  printf("\n");
+}
+
+static unsigned long
+to_seconds(uint64_t time)
+{
+  return (unsigned long)(time / ENERGEST_SECOND);
 }
 
 /*---------------------------------------------------------------------------*/
 PROCESS_THREAD(nullnet_example_process, ev, data)
 {
   static struct etimer periodic_timer;
-  static unsigned count = 0;
 
   PROCESS_BEGIN();
 
 #if MAC_CONF_WITH_TSCH
   tsch_set_coordinator(linkaddr_cmp(&coordinator_addr, &linkaddr_node_addr));
-  NETSTACK_MAC.on();
-  tsch_cs_adaptations_init();
 #endif /* MAC_CONF_WITH_TSCH */
+  NETSTACK_MAC.on();
+#if MAC_CONF_WITH_TSCH
+  tsch_cs_adaptations_init();
+#endif
 
-  /* Initialize NullNet */
-  nullnet_buf = (uint8_t *)&count;
-  nullnet_len = sizeof(count);
   nullnet_set_input_callback(input_callback);
 
-  etimer_set(&periodic_timer, SEND_INTERVAL);
+  etimer_set(&periodic_timer, SLEEP_INTERVAL);
 
   while (1)
   {
     PROCESS_WAIT_EVENT_UNTIL(etimer_expired(&periodic_timer));
 
+    /* Update all energest times. */
+    energest_flush();
+
+    printf("\nEnergest:\n");
+    printf(" CPU          %4lus LPM      %4lus DEEP LPM %4lus  Total time %lus\n",
+           to_seconds(energest_type_time(ENERGEST_TYPE_CPU)),
+           to_seconds(energest_type_time(ENERGEST_TYPE_LPM)),
+           to_seconds(energest_type_time(ENERGEST_TYPE_DEEP_LPM)),
+           to_seconds(ENERGEST_GET_TOTAL_TIME()));
+    printf(" Radio LISTEN %4lus TRANSMIT %4lus OFF      %4lus\n",
+           to_seconds(energest_type_time(ENERGEST_TYPE_LISTEN)),
+           to_seconds(energest_type_time(ENERGEST_TYPE_TRANSMIT)),
+           to_seconds(ENERGEST_GET_TOTAL_TIME() - energest_type_time(ENERGEST_TYPE_TRANSMIT) - energest_type_time(ENERGEST_TYPE_LISTEN)));
+
     etimer_reset(&periodic_timer);
   }
-
   PROCESS_END();
 }
 /*---------------------------------------------------------------------------*/

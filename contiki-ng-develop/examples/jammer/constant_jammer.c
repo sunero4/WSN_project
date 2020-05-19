@@ -108,7 +108,7 @@ AUTOSTART_PROCESSES(&turn_carrier_OnOff);           // Load the process on boot
 
 PROCESS_THREAD(turn_carrier_OnOff, ev, data) // Process to turn carrier on and off
 {
-    cc2420_set_channel(11);
+    cc2420_set_channel(26);
     PROCESS_BEGIN(); // Says where the process starts
 
     rtimer_set(&rtimer, RTIMER_NOW() + RTIMER_ARCH_SECOND, 1, carrier_OnOff, NULL); //Initiates the rtimer 1 second after boot

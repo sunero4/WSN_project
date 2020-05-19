@@ -90,15 +90,13 @@ static void carrier_OnOff(struct rtimer *timer, void *ptr)
 {
     uint32_t num_ticks; // Number of ticks of the time_next_period
 
-    if (counter < 500 && cc2420_get_channel() < 26)
+    if (counter < 42949 && cc2420_get_channel() < 26)
     {
-        printf("\nSweeper: Setting channel to: %u from %u", cc2420_get_channel() + 1, cc2420_get_channel());
         cc2420_set_channel(cc2420_get_channel() + 1);
         counter++;
     }
     else
     {
-        printf("\nSweeper: Setting channel to: 11 from %u", cc2420_get_channel());
         cc2420_set_channel(11);
         counter = 0;
     }

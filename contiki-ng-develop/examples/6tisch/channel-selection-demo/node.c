@@ -71,8 +71,6 @@ PROCESS_THREAD(node_process, ev, data)
   }
   NETSTACK_MAC.on();
 
-  tsch_cs_adaptations_init();
-
 #if WITH_PERIODIC_ROUTES_PRINT
   {
     static struct etimer et;
