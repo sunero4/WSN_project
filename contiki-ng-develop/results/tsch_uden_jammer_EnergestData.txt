@@ -31,3 +31,36 @@
 11:01.632	ID:2	Energest:
 11:01.641	ID:2	 CPU            14s LPM       645s DEEP LPM    0s  Total time 660s
 11:01.646	ID:2	 Radio LISTEN   76s TRANSMIT    0s OFF       583s
+01:01.632	ID:2	Energest:
+01:01.637	ID:2	 CPU             2s LPM        58s DEEP LPM    0s  Total time 60s
+01:01.641	ID:2	 Radio LISTEN    9s TRANSMIT    0s OFF        51s
+02:01.632	ID:2	Energest:
+02:01.637	ID:2	 CPU             3s LPM       117s DEEP LPM    0s  Total time 120s
+02:01.642	ID:2	 Radio LISTEN   16s TRANSMIT    0s OFF       104s
+03:01.632	ID:2	Energest:
+03:01.637	ID:2	 CPU             4s LPM       176s DEEP LPM    0s  Total time 180s
+03:01.642	ID:2	 Radio LISTEN   22s TRANSMIT    0s OFF       157s
+04:01.632	ID:2	Energest:
+04:01.637	ID:2	 CPU             6s LPM       234s DEEP LPM    0s  Total time 240s
+04:01.642	ID:2	 Radio LISTEN   29s TRANSMIT    0s OFF       211s
+05:01.632	ID:2	Energest:
+05:01.637	ID:2	 CPU             7s LPM       293s DEEP LPM    0s  Total time 300s
+05:01.643	ID:2	 Radio LISTEN   36s TRANSMIT    0s OFF       264s
+06:01.632	ID:2	Energest:
+06:01.637	ID:2	 CPU             8s LPM       352s DEEP LPM    0s  Total time 360s
+06:01.643	ID:2	 Radio LISTEN   43s TRANSMIT    0s OFF       317s
+07:01.632	ID:2	Energest:
+07:01.637	ID:2	 CPU             9s LPM       410s DEEP LPM    0s  Total time 420s
+07:01.645	ID:2	 Radio LISTEN   49s TRANSMIT    0s OFF       370s
+08:01.632	ID:2	Energest:
+08:01.638	ID:2	 CPU            11s LPM       469s DEEP LPM    0s  Total time 480s
+08:01.645	ID:2	 Radio LISTEN   56s TRANSMIT    0s OFF       423s
+09:01.632	ID:2	Energest:
+09:01.638	ID:2	 CPU            12s LPM       528s DEEP LPM    0s  Total time 540s
+09:01.645	ID:2	 Radio LISTEN   63s TRANSMIT    0s OFF       477s
+10:01.632	ID:2	Energest:
+10:01.641	ID:2	 CPU            13s LPM       587s DEEP LPM    0s  Total time 600s
+10:01.645	ID:2	 Radio LISTEN   70s TRANSMIT    0s OFF       530s
+11:01.632	ID:2	Energest:
+11:01.641	ID:2	 CPU            14s LPM       645s DEEP LPM    0s  Total time 660s
+11:01.646	ID:2	 Radio LISTEN   76s TRANSMIT    0s OFF       583s
