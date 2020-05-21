@@ -27,8 +27,9 @@ def writeToTarget(line, dataType):
 
 def latencies():
     times_dict = {}
+    send_count = 0
     count = 0
-    with open("results/tsch_uden_jammer_PackageLossData.txt") as source:
+    with open("results/csma_med_jammer_PackageLossData.txt") as source:
         for line in source:
             ev = 0
             send = line.find("Sending")
@@ -47,8 +48,16 @@ def latencies():
 
     send_sum = 0
     rec_sum = 0
+    count = 0
+    for key, value in times_dict.items():
+        if(value[1] > 0):
+            send_sum = send_sum + value[0]
+            rec_sum = rec_sum + value[1]
+            count = count + 1
 
-    with open("ressss.txt", "w") as file:
+    print((rec_sum - send_sum) / count)
+
+    with open("resssss.txt", "w") as file:
         for key in times_dict.keys():
             l = key + ": " + \
                 str(times_dict[key][1] - times_dict[key][0]) + "\n"

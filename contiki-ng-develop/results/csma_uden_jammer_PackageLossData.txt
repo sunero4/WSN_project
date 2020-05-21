@@ -142,5 +142,3 @@
 11:01.038	ID:1	Received: Event 60 0200.0000.0000.0000
 11:01.119	ID:2	Sending Alive 10 to (NULL LL addr)
 11:01.186	ID:1	Received: Alive 10 0200.0000.0000.0000
-11:11.009	ID:2	Sending Event 61  (NULL LL addr)
-11:11.093	ID:1	Received: Event 61 0200.0000.0000.0000
