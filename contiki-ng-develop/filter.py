@@ -37,4 +37,20 @@ def extractData():
                 writeToTarget(line, DataTypes.RSSI)
 
 
-extractData()
+packageLossFile = 'results/csma_uden_jammer_PackageLossData.txt'
+
+
+def countPackageLoss():
+    sending_counter = 0
+    received_counter = 0
+    with open(packageLossFile) as source:
+        for line in source:
+            if 'Sending' in line:
+                sending_counter = sending_counter + 1
+            if 'Received' in line:
+                received_counter = received_counter + 1
+    print("Sending count: " + str(sending_counter))
+    print("Received count: " + str(received_counter))
+
+
+countPackageLoss()
