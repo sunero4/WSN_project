@@ -137,15 +137,5 @@
 10:01.251	ID:1	Received: Event 59 0200.0000.0000.0000
 10:11.228	ID:2	Sending Event 60  (NULL LL addr)
 10:11.295	ID:1	Received: Event 60 0200.0000.0000.0000
-10:21.251	ID:2	Sending Event 61  (NULL LL addr)
-10:21.295	ID:1	Received: Event 61 0200.0000.0000.0000
-10:31.267	ID:2	Sending Event 62  (NULL LL addr)
-10:31.340	ID:1	Received: Event 62 0200.0000.0000.0000
-10:41.290	ID:2	Sending Event 63  (NULL LL addr)
-10:41.340	ID:1	Received: Event 63 0200.0000.0000.0000
-10:51.306	ID:2	Sending Event 64  (NULL LL addr)
-10:51.339	ID:1	Received: Event 64 0200.0000.0000.0000
 11:01.134	ID:2	Sending Alive 10 to (NULL LL addr)
 11:01.204	ID:1	Received: Alive 10 0200.0000.0000.0000
-11:01.329	ID:2	Sending Event 65  (NULL LL addr)
-11:01.384	ID:1	Received: Event 65 0200.0000.0000.0000

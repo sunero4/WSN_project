@@ -69,9 +69,3 @@
 10:04.179	ID:1	Sending Event 58  (NULL LL addr)
 10:14.194	ID:1	Sending Event 59  (NULL LL addr)
 10:24.210	ID:1	Sending Event 60  (NULL LL addr)
-10:34.227	ID:1	Sending Event 61  (NULL LL addr)
-10:34.287	ID:2	Received: Event 61 0100.0000.0000.0000
-10:44.243	ID:1	Sending Event 62  (NULL LL addr)
-10:54.259	ID:1	Sending Event 63  (NULL LL addr)
-11:01.265	ID:1	Sending Alive 10 to (NULL LL addr)
-11:04.273	ID:1	Sending Event 64  (NULL LL addr)
