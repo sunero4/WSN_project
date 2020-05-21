@@ -1,5 +1,6 @@
 import re
 from enum import Enum
+from decimal import Decimal
 
 
 class DataTypes(Enum):
@@ -8,7 +9,7 @@ class DataTypes(Enum):
     RSSI = 3
 
 
-sourceFile = 'tsch_uden_jammer.txt'
+sourceFile = 'tsch_uden_jammer_PackageLossData.txt'
 targetFilePrefix = 'results/tsch_uden_jammer'
 
 
@@ -24,6 +25,36 @@ def writeToTarget(line, dataType):
         target.write(line)
 
 
+def latencies():
+    times_dict = {}
+    count = 0
+    with open("results/tsch_uden_jammer_PackageLossData.txt") as source:
+        for line in source:
+            ev = 0
+            send = line.find("Sending")
+            rec = line.find("Received")
+
+            times = line.split(':', maxsplit=1)
+            m = float(times[0]) * 60000.0
+            sec = float(times[1][:6]) * 1000.0
+
+            if send > -1:
+                ev = line[send + 8:send + 16]
+                times_dict[ev] = (m + sec, 0)
+            else:
+                ev = line[rec + 10:rec + 18]
+                times_dict[ev] = (times_dict[ev][0], m + sec)
+
+    send_sum = 0
+    rec_sum = 0
+
+    with open("ressss.txt", "w") as file:
+        for key in times_dict.keys():
+            l = key + ": " + \
+                str(times_dict[key][1] - times_dict[key][0]) + "\n"
+            file.write(l)
+
+
 def extractData():
     regex = re.compile('.+ch.+q.+busy.+')
     with open(sourceFile) as source:
@@ -37,4 +68,5 @@ def extractData():
                 writeToTarget(line, DataTypes.RSSI)
 
 
-extractData()
+# extractData()
+latencies()
